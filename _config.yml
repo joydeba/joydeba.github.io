@@ -1,0 +1,14 @@
+title: "Debasish Chakroborti"
+description: "PhD Candidate · Software Engineer · Instructor"
+baseurl: "" 
+url: "https://joydeba.github.io"
+
+email: "joydebaa@gmail.com"
+github_username: "joydeba"
+linkedin_username: "joydeba"
+researchgate_username: "Debasish-Chakroborti"
+
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-scholar
