@@ -100,11 +100,15 @@
       const colorDots = document.querySelectorAll('.color-dot');
       
       // Theme functionality
-      function setTheme(theme) {
-        document.documentElement.setAttribute('data-theme', theme);
-        localStorage.setItem('theme', theme);
-        toggleBtn.textContent = theme === 'dark' ? '☀️ Light Mode' : '🌙 Dark Mode';
-      }
+        function setTheme(theme) {
+    document.documentElement.setAttribute('data-theme', theme);
+    localStorage.setItem('theme', theme);
+    toggleBtn.textContent = theme === 'dark' ? '☀️ Light Mode' : '🌙 Dark Mode';
+    
+    // Update theme-color when switching themes
+    const currentColor = localStorage.getItem('headline-color') || 'default';
+    setHeadlineColor(currentColor);
+  }
       
       toggleBtn.onclick = function() {
         const current = document.documentElement.getAttribute('data-theme');
@@ -120,9 +124,23 @@
     colorDots.forEach(dot => dot.classList.remove('active'));
     document.querySelector(`[data-color="${color}"]`).classList.add('active');
     
-    // Update meta theme-color to match selected color
+    // Update meta theme-color to match selected color and current theme
     const themeColorMeta = document.getElementById('theme-color-meta');
-    const colorMap = {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    
+    // Light mode colors (darker, visible colors)
+    const lightModeColors = {
+      'default': '#2d8f47',
+      'blue': '#0c7cd5',
+      'purple': '#7c4dff',
+      'orange': '#ff6f00',
+      'pink': '#e91e63',
+      'yellow': '#f9a825',
+      'red': '#d32f2f'
+    };
+    
+    // Dark mode colors (original bright colors)
+    const darkModeColors = {
       'default': '#50fa7b',
       'blue': '#61dafb',
       'purple': '#bd93f9',
@@ -131,6 +149,8 @@
       'yellow': '#f1fa8c',
       'red': '#ff5555'
     };
+    
+    const colorMap = currentTheme === 'dark' ? darkModeColors : lightModeColors;
     if (themeColorMeta && colorMap[color]) {
       themeColorMeta.setAttribute('content', colorMap[color]);
     }
