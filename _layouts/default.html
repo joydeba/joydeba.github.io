@@ -2,15 +2,33 @@
 <html lang="en" data-theme="light">
 <head>
   <meta charset="UTF-8">
-  <title>{{ page.title }}</title>
+  <title>{{ page.title }} | {{ site.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/assets/style.css">
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 </head>
 <body>
-  <button id="theme-toggle" style="position:fixed;top:1rem;right:1rem;z-index:1000;">🌙 Toggle Theme</button>
+  <button id="theme-toggle">🌙 Toggle Theme</button>
+  
+  <header>
+    <h1>{{ site.title }}</h1>
+    <p>{{ site.description }}</p>
+    <nav>
+      <a href="{{ '/' | relative_url }}">Home</a> |
+      <a href="{{ '/research' | relative_url }}">Research</a> |
+      <a href="{{ '/teaching' | relative_url }}">Teaching</a> |
+      <a href="{{ '/projects' | relative_url }}">Projects</a> |
+      <a href="{{ '/cv' | relative_url }}">CV</a>
+    </nav>
+  </header>
+  
   <main>
     {{ content }}
   </main>
+  
+  <footer>
+    <p>© {{ site.time | date: '%Y' }} {{ site.title }}</p>
+  </footer>
+  
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       const toggleBtn = document.getElementById('theme-toggle');
