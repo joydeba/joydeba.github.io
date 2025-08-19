@@ -18,14 +18,23 @@
   --terminal-accent: #ffb86c;
 }
 
-/* Headline color variations */
-:root[data-headline-color="default"] { --header-text: #50fa7b; --terminal-accent: #ffb86c; }
-:root[data-headline-color="blue"] { --header-text: #61dafb; --terminal-accent: #61dafb; }
-:root[data-headline-color="purple"] { --header-text: #bd93f9; --terminal-accent: #bd93f9; }
-:root[data-headline-color="orange"] { --header-text: #ffb86c; --terminal-accent: #ffb86c; }
-:root[data-headline-color="pink"] { --header-text: #ff79c6; --terminal-accent: #ff79c6; }
-:root[data-headline-color="yellow"] { --header-text: #f1fa8c; --terminal-accent: #f1fa8c; }
-:root[data-headline-color="red"] { --header-text: #ff5555; --terminal-accent: #ff5555; }
+/* Headline color variations - Light mode (darker colors) */
+:root[data-headline-color="default"] { --header-text: #2d8f47; --terminal-accent: #ff6f00; }
+:root[data-headline-color="blue"] { --header-text: #0c7cd5; --terminal-accent: #0c7cd5; }
+:root[data-headline-color="purple"] { --header-text: #7c4dff; --terminal-accent: #7c4dff; }
+:root[data-headline-color="orange"] { --header-text: #ff6f00; --terminal-accent: #ff6f00; }
+:root[data-headline-color="pink"] { --header-text: #e91e63; --terminal-accent: #e91e63; }
+:root[data-headline-color="yellow"] { --header-text: #f57f17; --terminal-accent: #f57f17; }
+:root[data-headline-color="red"] { --header-text: #d32f2f; --terminal-accent: #d32f2f; }
+
+/* Dark mode headline colors (original bright colors) */
+[data-theme="dark"][data-headline-color="default"] { --header-text: #50fa7b; --terminal-accent: #ffb86c; }
+[data-theme="dark"][data-headline-color="blue"] { --header-text: #61dafb; --terminal-accent: #61dafb; }
+[data-theme="dark"][data-headline-color="purple"] { --header-text: #bd93f9; --terminal-accent: #bd93f9; }
+[data-theme="dark"][data-headline-color="orange"] { --header-text: #ffb86c; --terminal-accent: #ffb86c; }
+[data-theme="dark"][data-headline-color="pink"] { --header-text: #ff79c6; --terminal-accent: #ff79c6; }
+[data-theme="dark"][data-headline-color="yellow"] { --header-text: #f1fa8c; --terminal-accent: #f1fa8c; }
+[data-theme="dark"][data-headline-color="red"] { --header-text: #ff5555; --terminal-accent: #ff5555; }
 
 [data-theme="dark"] {
   --bg: #1e1e1e;
