@@ -3,10 +3,14 @@ description: "PhD in Computer Science · Software Engineer · Instructor"
 baseurl: "" 
 url: "https://joydeba.github.io"
 
-email: "joydebaa@gmail.com"
+email: "debasish.chakroborti@usask.ca"
+phone: "306-914-6212"
+address: "410 Stensrud Rd #118, Saskatoon"
+website: "www.joydeba.com"
 github_username: "joydeba"
 linkedin_username: "joydeba"
 researchgate_username: "Debasish-Chakroborti"
+stackoverflow: "www.stackoverflow.com/users/1797926/joydeba"
 
 markdown: kramdown
 theme: minima

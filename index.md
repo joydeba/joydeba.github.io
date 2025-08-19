@@ -13,4 +13,12 @@ I currently teach in the **Cloud Computing & Blockchain** program at Saskatchewa
 and continue my research in automated software backporting and AI-driven development tools.  
 
 📄 [Download my CV](cv.pdf)  
-📧 [Email](mailto:joydebaa@gmail.com) · [GitHub](https://github.com/joydeba) · [LinkedIn](https://www.linkedin.com/in/joydeba) · [ResearchGate](https://www.researchgate.net/profile/Debasish-Chakroborti)
+
+## Contact Information
+📧 [debasish.chakroborti@usask.ca](mailto:debasish.chakroborti@usask.ca)  
+📱 306-914-6212  
+📍 410 Stensrud Rd #118, Saskatoon  
+🌐 [joydeba.com](https://www.joydeba.com/)  
+
+**Connect with me:**  
+[GitHub](https://github.com/joydeba) · [LinkedIn](https://www.linkedin.com/in/joydeba) · [ResearchGate](https://www.researchgate.net/profile/Debasish-Chakroborti) · [Stack Overflow](https://www.stackoverflow.com/users/1797926/joydeba)
