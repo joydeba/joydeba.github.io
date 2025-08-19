@@ -5,15 +5,15 @@
 
 /* Terminal-style light/dark theme */
 :root {
-  --bg: #f0f0f2;
-  --text: #2c2c2e;
+  --bg: #e8e8ea;
+  --text: #1c1c1e;
   --accent: #007aff;
-  --border: #c7c7cc;
-  --card-bg: #f8f8f9;
-  --muted-text: #6d6d70;
+  --border: #b8b8bd;
+  --card-bg: #f2f2f4;
+  --muted-text: #5a5a5e;
   --hover-accent: #005bb5;
   --header-text: #50fa7b;
-  --nav-text: #2c2c2e;
+  --nav-text: #1c1c1e;
   --nav-hover: #007aff;
   --terminal-accent: #ffb86c;
 }
