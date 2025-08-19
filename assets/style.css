@@ -153,13 +153,22 @@ button#theme-toggle:active {
   height: 18px;
   border-radius: 50%;
   cursor: pointer;
-  border: 2px solid transparent;
   transition: all 0.2s ease;
   position: relative;
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
   -ms-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
+  /* Enhanced visibility for light mode */
+  border: 2px solid rgba(60, 60, 67, 0.4);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15),
+              inset 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+/* Dark mode color dots - subtle styling */
+[data-theme="dark"] .color-dot {
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
 }
 
 .color-dot:hover {
@@ -168,12 +177,38 @@ button#theme-toggle:active {
   -moz-transform: scale(1.2);
   -ms-transform: scale(1.2);
   -o-transform: scale(1.2);
-  border-color: var(--text);
+}
+
+/* Light mode hover */
+.color-dot:hover {
+  border-color: rgba(60, 60, 67, 0.7);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25),
+              inset 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+/* Dark mode hover */
+[data-theme="dark"] .color-dot:hover {
+  border-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
 }
 
 .color-dot.active {
-  border-color: var(--text);
-  box-shadow: 0 0 0 2px var(--bg), 0 0 0 4px var(--text);
+  transform: scale(1.1);
+}
+
+/* Light mode active */
+.color-dot.active {
+  border-color: rgba(60, 60, 67, 0.9);
+  box-shadow: 0 0 0 3px rgba(60, 60, 67, 0.2),
+              0 4px 16px rgba(0, 0, 0, 0.3),
+              inset 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+/* Dark mode active */
+[data-theme="dark"] .color-dot.active {
+  border-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.2),
+              0 4px 16px rgba(0, 0, 0, 0.6);
 }
 
 .color-dot:active {
