@@ -315,7 +315,7 @@ html {
 
 /* Small mobile phones */
 @media (max-width: 480px) {
-  body {
+body {
     padding: 12px;
   }
 
@@ -472,7 +472,7 @@ footer {
   background: var(--card-bg);
   border-radius: 12px 12px 0 0;
   box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.08), 
-              0 0 30px var(--header-text, rgba(80, 250, 123, 0.1));
+              0 0 30px var(--header-text);
   backdrop-filter: blur(10px);
   transition: all 0.3s ease;
   position: relative;
@@ -492,7 +492,7 @@ footer::before {
 
 [data-theme="dark"] footer {
   box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.3),
-              0 0 30px var(--header-text, rgba(80, 250, 123, 0.2));
+              0 0 30px var(--header-text);
   backdrop-filter: blur(15px);
 }
 

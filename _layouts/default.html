@@ -5,7 +5,7 @@
   <title>{{ page.title }} | {{ site.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
   <meta name="format-detection" content="telephone=no">
-  <meta name="theme-color" content="#50fa7b">
+  <meta name="theme-color" content="#50fa7b" id="theme-color-meta">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
@@ -111,15 +111,30 @@
         setTheme(current === 'dark' ? 'light' : 'dark');
       };
       
-      // Color functionality
-      function setHeadlineColor(color) {
-        document.documentElement.setAttribute('data-headline-color', color);
-        localStorage.setItem('headline-color', color);
-        
-        // Update active state
-        colorDots.forEach(dot => dot.classList.remove('active'));
-        document.querySelector(`[data-color="${color}"]`).classList.add('active');
-      }
+        // Color functionality
+  function setHeadlineColor(color) {
+    document.documentElement.setAttribute('data-headline-color', color);
+    localStorage.setItem('headline-color', color);
+
+    // Update active state
+    colorDots.forEach(dot => dot.classList.remove('active'));
+    document.querySelector(`[data-color="${color}"]`).classList.add('active');
+    
+    // Update meta theme-color to match selected color
+    const themeColorMeta = document.getElementById('theme-color-meta');
+    const colorMap = {
+      'default': '#50fa7b',
+      'blue': '#61dafb',
+      'purple': '#bd93f9',
+      'orange': '#ffb86c',
+      'pink': '#ff79c6',
+      'yellow': '#f1fa8c',
+      'red': '#ff5555'
+    };
+    if (themeColorMeta && colorMap[color]) {
+      themeColorMeta.setAttribute('content', colorMap[color]);
+    }
+  }
       
       colorDots.forEach(dot => {
         dot.onclick = function() {
