@@ -439,16 +439,33 @@ nav a:focus {
 
 footer {
   margin-top: 40px;
-  border-top: 2px solid var(--border);
+  border-top: 2px solid var(--header-text);
   padding: 25px 0 15px 0;
   background: var(--card-bg);
-  border-radius: 8px 8px 0 0;
-  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 12px 12px 0 0;
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.08), 
+              0 0 30px var(--header-text, rgba(80, 250, 123, 0.1));
+  backdrop-filter: blur(10px);
   transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--header-text), transparent);
+  opacity: 0.8;
 }
 
 [data-theme="dark"] footer {
-  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.3),
+              0 0 30px var(--header-text, rgba(80, 250, 123, 0.2));
+  backdrop-filter: blur(15px);
 }
 
 .footer-content {
