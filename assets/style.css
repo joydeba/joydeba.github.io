@@ -5,12 +5,12 @@
 
 /* Terminal-style light/dark theme */
 :root {
-  --bg: #e8e8ea;
+  --bg: #d1d1d6;
   --text: #1c1c1e;
   --accent: #007aff;
-  --border: #b8b8bd;
-  --card-bg: #f2f2f4;
-  --muted-text: #5a5a5e;
+  --border: #a1a1a6;
+  --card-bg: #e5e5ea;
+  --muted-text: #48484a;
   --hover-accent: #005bb5;
   --header-text: #50fa7b;
   --nav-text: #1c1c1e;
