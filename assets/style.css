@@ -3,21 +3,42 @@
   --bg: #f5f5f7;
   --text: #1d1d1f;
   --accent: #007aff;
+  --border: #d1d1d6;
+  --card-bg: #ffffff;
+  --muted-text: #86868b;
+  --hover-accent: #005bb5;
 }
+
 [data-theme="dark"] {
   --bg: #1d1d1f;
   --text: #f5f5f7;
   --accent: #0a84ff;
+  --border: #424245;
+  --card-bg: #2c2c2e;
+  --muted-text: #98989d;
+  --hover-accent: #40a9ff;
 }
+
 body {
   background: var(--bg);
   color: var(--text);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
   transition: background 0.3s, color 0.3s;
+  max-width: 850px;
+  margin: auto;
+  padding: 20px;
 }
+
 a {
   color: var(--accent);
+  text-decoration: none;
 }
+
+a:hover {
+  color: var(--hover-accent);
+  text-decoration: underline;
+}
+
 button#theme-toggle {
   background: var(--accent);
   color: var(--bg);
@@ -26,21 +47,58 @@ button#theme-toggle {
   padding: 0.5em 1em;
   cursor: pointer;
   font-size: 1em;
+  transition: background 0.3s;
 }
 
-body {
-  max-width: 850px;
-  margin: auto;
-  padding: 20px;
+button#theme-toggle:hover {
+  background: var(--hover-accent);
 }
-a { text-decoration: none; }
-a:hover { text-decoration: underline; }
-header, footer { text-align: center; margin-bottom: 30px; }
-nav a { margin: 0 10px; }
-nav a:hover { color: #61dafb; }
-h1, h2 { border-bottom: 1px solid #444; padding-bottom: 5px; }
-section { padding: 15px 0; border-bottom: 1px solid #444; }
-.card { background-color: #282a36; border: none; box-shadow: 0 0 10px #000; }
-.card a { color: #ff79c6; }
-footer { font-size: 0.9rem; color: #6272a4; border-top: 1px solid #444; padding-top: 10px; }
-h1::before, h2::before { content: "➜ "; color: #ffb86c; }
+
+header, footer {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+nav a {
+  margin: 0 10px;
+}
+
+h1, h2 {
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 5px;
+  color: var(--text);
+}
+
+h1::before, h2::before {
+  content: "➜ ";
+  color: var(--accent);
+}
+
+section {
+  padding: 15px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+[data-theme="dark"] .card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.card a {
+  color: var(--accent);
+}
+
+footer {
+  font-size: 0.9rem;
+  color: var(--muted-text);
+  border-top: 1px solid var(--border);
+  padding-top: 10px;
+}
