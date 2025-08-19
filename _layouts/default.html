@@ -48,7 +48,49 @@
   </main>
   
   <footer>
-    <p>© {{ site.time | date: '%Y' }} {{ site.title }}</p>
+    <div class="footer-content">
+      <div class="footer-contact">
+        <div class="contact-row">
+          <a href="mailto:debasish.chakroborti@usask.ca" class="footer-link" title="Email">
+            <span class="icon">📧</span>
+            <span class="contact-text">debasish.chakroborti@usask.ca</span>
+          </a>
+          <a href="https://www.joydeba.com/" class="footer-link" title="Website">
+            <span class="icon">🌐</span>
+            <span class="contact-text">joydeba.com</span>
+          </a>
+        </div>
+        <div class="contact-row">
+          <a href="https://twitter.com/joydeba" class="footer-link" title="Twitter">
+            <span class="icon">🐦</span>
+            <span class="contact-text">@joydeba</span>
+          </a>
+          <a href="https://github.com/joydeba" class="footer-link" title="GitHub">
+            <span class="icon">⚡</span>
+            <span class="contact-text">github.com/joydeba</span>
+          </a>
+        </div>
+        <div class="contact-row">
+          <a href="https://www.linkedin.com/in/joydeba/" class="footer-link" title="LinkedIn">
+            <span class="icon">💼</span>
+            <span class="contact-text">linkedin.com/in/joydeba</span>
+          </a>
+          <a href="https://www.stackoverflow.com/users/1797926/joydeba" class="footer-link" title="Stack Overflow">
+            <span class="icon">📚</span>
+            <span class="contact-text">stackoverflow.com/joydeba</span>
+          </a>
+        </div>
+        <div class="contact-row">
+          <a href="https://www.researchgate.net/profile/Debasish-Chakroborti" class="footer-link" title="ResearchGate">
+            <span class="icon">🔬</span>
+            <span class="contact-text">researchgate.net/Debasish-Chakroborti</span>
+          </a>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <p>© {{ site.time | date: '%Y' }} {{ site.title }}</p>
+      </div>
+    </div>
   </footer>
   
   <script>
