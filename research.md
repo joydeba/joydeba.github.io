@@ -5,17 +5,13 @@ title: "Research"
 
 # Research & Publications
 
-## PhD Research (Completed 2024)
-I recently completed my **PhD in Computer Science** from the University of Saskatchewan, focusing on:
-- **Software Engineering** methodologies and practices
-- **Automated Backporting** techniques and tools  
-- **Machine Learning** applications in software development
+## Research Focus
 
-## Research Interests
-- Software Engineering and Maintenance
-- Automated Code Analysis and Backporting
-- Machine Learning in Software Development
-- Pull Request Analysis and Recommendation Systems
+My research specializes in:
+- **Software Engineering and Maintenance**
+- **Automated Code Analysis and Backporting**
+- **Machine Learning in Software Development**
+- **Pull Request Analysis and Recommendation Systems**
 
 ## Research Publications
 
@@ -68,8 +64,7 @@ I recently completed my **PhD in Computer Science** from the University of Saska
 **4.** Chakroborti, D., Roy, B., Mondal, A., Mostaeen, G., Roy, C. K., Schneider, K. A., & Deters, R. (2020). A data management scheme for micro-level modular computation-intensive programs in big data platforms (R. Alhajj, M. Moshirpour, & B. Far, Eds.). [doi:10.1007/978-3-030-32587-9_9](https://doi.org/10.1007/978-3-030-32587-9_9)
 
 ## Research Tools & Projects
-- **[BackSlice](https://github.com/joydeba/BackSlice)** – CNN-based tool for intelligent backporting recommendations
-- **[ReBack](https://github.com/joydeba/ReBack)** – Automated pull-request analysis and recommendation system
+See the [Projects](/projects) page for detailed information about my research tools and software contributions.
 
 ---
 

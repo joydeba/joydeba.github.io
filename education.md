@@ -19,11 +19,7 @@ title: "Education"
   - Automated pull request analysis and adaptation
   - Machine learning applications in software maintenance
 
-**Key Research Contributions:**
-- Developed **BackSlice**: CNN-based tool for intelligent backporting recommendations
-- Created **ReBack**: Automated pull-request analysis system  
-- Built **BackTrans**: LLM-based backporting translation tool
-- Designed **Baczer**: Comprehensive backporting analysis framework
+**Research Contributions:** Advanced AI/ML techniques for automated software backporting, pull request analysis, and intelligent code recommendation systems.
 
 ---
 
@@ -65,14 +61,5 @@ title: "Education"
 - Regular participation in academic conferences and workshops
 
 ---
-
-## Academic Achievements
-
-- **PhD Citizenship Award 2024** - University of Saskatchewan
-- **Carl McCrosky Innovation Scholarship for Graduate Studies 2023**
-- **GSA Mark Kroeker Exceptional Student Leadership Award 2023**
-- **Saskatchewan Innovation and Opportunity Scholarship**
-- **Dean's Merit Scholarship** - Khulna University
-- **Multiple Graduate Travel Awards** for international conference participation
 
 My educational journey has provided me with a comprehensive understanding of both theoretical computer science principles and practical software development skills, enabling me to bridge academic research with real-world applications.

@@ -5,14 +5,16 @@ title: "CV"
 
 # Curriculum Vitae
 
-I recently completed my **PhD in Computer Science** from the University of Saskatchewan, 
-specializing in Software Engineering, Backporting, and Machine Learning.
+For comprehensive details about my academic background, professional experience, research contributions, and achievements, please download my complete CV:
 
-📄 **Download my full CV:** [cv.pdf](cv.pdf)
+📄 **[Download Complete CV](cv.pdf)**
 
-## Education
-- **PhD in Computer Science** (2024) - University of Saskatchewan
-- **Specialization:** Software Engineering, Backporting, and Machine Learning
+This document includes:
+- **Complete employment history** and project details
+- **Full publication list** with citations and DOIs  
+- **Academic achievements** and awards received
+- **Technical skills** and expertise areas
+- **Conference presentations** and invited talks
+- **Professional service** and community involvement
 
-## Current Role
-- **Instructor** - Cloud Computing & Blockchain, Saskatchewan Polytechnic
+*The online pages provide organized summaries while the CV contains the complete academic record.*

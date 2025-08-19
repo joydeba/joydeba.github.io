@@ -13,7 +13,7 @@ title: "Teaching"
 - **Teaching Assistant** – University of Saskatchewan (2017–2024)
 
 ## Teaching Philosophy
-With my recently completed **PhD in Computer Science**, I bring both theoretical depth and practical experience to the classroom. I enjoy mentoring students and developing software engineering courses that connect cutting-edge research to real-world practice.
+I bring both theoretical depth and practical experience to the classroom, connecting cutting-edge research to real-world practice. I enjoy mentoring students and developing software engineering courses that bridge academic concepts with industry applications.
 
 ## Course Areas
 - **Cloud Computing & Blockchain Technologies**
