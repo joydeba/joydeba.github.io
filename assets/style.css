@@ -165,11 +165,28 @@ button#theme-toggle:active {
               inset 0 1px 0 rgba(255, 255, 255, 0.3);
 }
 
-/* Dark mode color dots - subtle styling */
+/* Light mode - darker, more visible colors */
+:root .color-dot[data-color="default"] { background: #2d8f47; } /* Darker green */
+:root .color-dot[data-color="blue"] { background: #0c7cd5; } /* Darker blue */  
+:root .color-dot[data-color="purple"] { background: #7c4dff; } /* Darker purple */
+:root .color-dot[data-color="orange"] { background: #ff6f00; } /* Darker orange */
+:root .color-dot[data-color="pink"] { background: #e91e63; } /* Darker pink */
+:root .color-dot[data-color="yellow"] { background: #f57f17; } /* Much darker yellow */
+:root .color-dot[data-color="red"] { background: #d32f2f; } /* Darker red */
+
+/* Dark mode color dots - original bright colors */
 [data-theme="dark"] .color-dot {
   border: 2px solid rgba(255, 255, 255, 0.3);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
 }
+
+[data-theme="dark"] .color-dot[data-color="default"] { background: #50fa7b; } /* Original green */
+[data-theme="dark"] .color-dot[data-color="blue"] { background: #61dafb; } /* Original blue */
+[data-theme="dark"] .color-dot[data-color="purple"] { background: #bd93f9; } /* Original purple */
+[data-theme="dark"] .color-dot[data-color="orange"] { background: #ffb86c; } /* Original orange */
+[data-theme="dark"] .color-dot[data-color="pink"] { background: #ff79c6; } /* Original pink */
+[data-theme="dark"] .color-dot[data-color="yellow"] { background: #f1fa8c; } /* Original yellow */
+[data-theme="dark"] .color-dot[data-color="red"] { background: #ff5555; } /* Original red */
 
 .color-dot:hover {
   transform: scale(1.2);
