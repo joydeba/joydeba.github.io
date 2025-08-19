@@ -128,7 +128,7 @@ a:active {
 /* Beautiful code styling */
 code {
   background: var(--border);
-  color: var(--accent);
+  color: var(--header-text);
   padding: 2px 6px;
   border-radius: 4px;
   font-size: 0.9em;
@@ -156,7 +156,7 @@ pre code {
 
 /* Enhanced blockquotes */
 blockquote {
-  border-left: 4px solid var(--accent);
+  border-left: 4px solid var(--header-text);
   background: var(--card-bg);
   margin: 20px 0;
   padding: 16px 20px;
@@ -168,7 +168,7 @@ blockquote {
 blockquote::before {
   content: '"';
   font-size: 3rem;
-  color: var(--accent);
+  color: var(--header-text);
   position: absolute;
   top: -10px;
   left: 10px;
@@ -179,7 +179,7 @@ blockquote::before {
 hr {
   border: none;
   height: 2px;
-  background: linear-gradient(90deg, transparent, var(--accent), transparent);
+  background: linear-gradient(90deg, transparent, var(--header-text), transparent);
   margin: 30px 0;
   border-radius: 1px;
 }
@@ -348,6 +348,23 @@ button#theme-toggle:active {
     padding: 12px 25px;
     font-size: 1rem;
   }
+  
+  /* Mobile heading adjustments */
+  h1, h2 {
+    font-size: 1.4rem;
+  }
+  
+  h2 {
+    font-size: 1.2rem;
+  }
+  
+  h3 {
+    font-size: 1.1rem;
+  }
+  
+  h4 {
+    font-size: 1rem;
+  }
 
   #controls-panel {
     top: 0.5rem;
@@ -404,13 +421,7 @@ button#theme-toggle:active {
     margin-top: 1rem;
   }
 
-  h1, h2 {
-    font-size: 1.4rem;
-  }
-
-  h2 {
-    font-size: 1.2rem;
-  }
+  /* Mobile heading sizes handled above */
 
   /* Footer mobile styles */
   footer {
@@ -446,7 +457,7 @@ button#theme-toggle:active {
 
 /* Small mobile phones */
 @media (max-width: 480px) {
-  body {
+body {
     padding: 12px;
   }
 
@@ -487,12 +498,16 @@ button#theme-toggle:active {
     min-width: 35px;
   }
 
-  h1, h2 {
+  h1 {
     font-size: 1.2rem;
   }
 
   h2 {
     font-size: 1.1rem;
+  }
+  
+  h3 {
+    font-size: 1rem;
   }
 
   /* Footer small mobile styles */
@@ -849,15 +864,50 @@ h2 {
   letter-spacing: -0.01em;
 }
 
-h3 {
+h3, h4, h5, h6 {
   color: var(--header-text);
-  font-size: 1.2rem;
   margin-top: 1.5rem;
   margin-bottom: 0.8rem;
   font-weight: 600;
+  text-shadow: 0 0 10px var(--glow-color, rgba(80, 250, 123, 0.2));
+  position: relative;
 }
 
-main h1, main h2 {
+h3 {
+  font-size: 1.2rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 4px;
+}
+
+h4 {
+  font-size: 1.1rem;
+  border-bottom: 1px dotted var(--border);
+  padding-bottom: 3px;
+}
+
+h5 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+h6 {
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Add terminal arrows to h3 and h4 as well */
+h3::before, h4::before {
+  content: "▸ ";
+  color: var(--terminal-accent);
+  margin-right: 6px;
+  font-weight: bold;
+  text-shadow: 0 0 8px currentColor;
+  animation: pulse 2s ease-in-out infinite alternate;
+}
+
+main h1, main h2, main h3, main h4, main h5, main h6 {
   color: var(--header-text);
 }
 
@@ -984,14 +1034,27 @@ li:hover {
 }
 
 li:hover::before {
-  color: var(--accent);
+  color: var(--header-text);
   transform: scale(1.2);
+}
+
+/* Ensure strong/bold text in headings uses header color */
+h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong {
+  color: var(--header-text);
+  text-shadow: 0 0 10px var(--glow-color, rgba(80, 250, 123, 0.3));
+}
+
+/* Publication numbers and badges */
+.research-publication strong, 
+.publication-number {
+  color: var(--header-text);
+  text-shadow: 0 0 8px var(--glow-color, rgba(80, 250, 123, 0.3));
 }
 
 /* Special styling for publication lists */
 .research-publication {
   background: var(--card-bg);
-  border-left: 3px solid var(--accent);
+  border-left: 3px solid var(--header-text);
   padding: 15px 20px;
   margin: 12px 0;
   border-radius: 0 8px 8px 0;
@@ -1000,6 +1063,62 @@ li:hover::before {
 
 .research-publication:hover {
   border-left-width: 5px;
+  border-left-color: var(--terminal-accent);
   padding-left: 25px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Ensure markdown bold text in content uses consistent colors */
+strong, b {
+  color: var(--header-text);
+  font-weight: 700;
+}
+
+em, i {
+  color: var(--text);
+  font-style: italic;
+}
+
+/* Target specific markdown patterns in research publications */
+p strong:first-child,
+p b:first-child {
+  color: var(--header-text);
+  text-shadow: 0 0 8px var(--glow-color, rgba(80, 250, 123, 0.2));
+}
+
+/* Section dividers and special content */
+.section-divider {
+  border-top: 2px solid var(--header-text);
+  margin: 30px 0;
+  opacity: 0.6;
+}
+
+/* Award badges and special callouts */
+.award-badge, 
+.best-poster,
+.highlight {
+  color: var(--header-text);
+  background: var(--border);
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-weight: 600;
+  text-shadow: 0 0 5px var(--glow-color, rgba(80, 250, 123, 0.3));
+}
+
+/* DOI links and publication links */
+a[href*="doi.org"],
+a[href*="github.com"],
+a[href*="researchgate"],
+.publication-link {
+  color: var(--terminal-accent);
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+a[href*="doi.org"]:hover,
+a[href*="github.com"]:hover,
+a[href*="researchgate"]:hover,
+.publication-link:hover {
+  color: var(--header-text);
+  text-shadow: 0 0 8px var(--glow-color, rgba(80, 250, 123, 0.4));
 }
