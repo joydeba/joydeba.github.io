@@ -865,23 +865,23 @@ h2 {
   letter-spacing: -0.01em;
 }
 
-h3, h4, h5, h6 {
+h3 {
+  color: var(--header-text);
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.8rem;
+  font-weight: 600;
+}
+
+h4, h5, h6 {
   color: var(--text);
   margin-top: 1.5rem;
   margin-bottom: 0.8rem;
   font-weight: 600;
 }
 
-h3 {
-  font-size: 1.2rem;
-  border-bottom: 1px solid var(--border);
-  padding-bottom: 4px;
-}
-
 h4 {
   font-size: 1.1rem;
-  border-bottom: 1px dotted var(--border);
-  padding-bottom: 3px;
 }
 
 h5 {
@@ -898,10 +898,6 @@ h6 {
 
 main h1, main h2 {
   color: var(--header-text);
-}
-
-main h3, main h4, main h5, main h6 {
-  color: var(--text);
 }
 
 h1::before, h2::before {
@@ -1031,7 +1027,7 @@ li:hover::before {
   transform: scale(1.2);
 }
 
-/* Enhanced publication styling */
+/* Special styling for publication lists */
 .research-publication {
   background: var(--card-bg);
   border-left: 3px solid var(--accent);
@@ -1043,7 +1039,6 @@ li:hover::before {
 
 .research-publication:hover {
   border-left-width: 5px;
-  border-left-color: var(--terminal-accent);
   padding-left: 25px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
