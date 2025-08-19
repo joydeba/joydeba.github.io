@@ -57,12 +57,12 @@ body {
 }
 
 a {
-  color: var(--accent);
+  color: var(--header-text);
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--hover-accent);
+  color: var(--terminal-accent);
   text-decoration: underline;
 }
 
@@ -401,7 +401,7 @@ nav::-webkit-scrollbar {
 nav a {
   margin: 2px;
   padding: 6px 8px;
-  color: var(--nav-text);
+  color: var(--header-text);
   border-radius: 6px;
   transition: all 0.3s ease;
   font-size: 0.85rem;
@@ -413,7 +413,7 @@ nav a {
 }
 
 nav a:hover {
-  color: var(--nav-hover);
+  color: var(--terminal-accent);
   background-color: var(--border);
   transform: translateY(-1px);
   -webkit-transform: translateY(-1px);
@@ -431,7 +431,7 @@ nav a:active {
 }
 
 nav a:focus {
-  outline: 2px solid var(--accent);
+  outline: 2px solid var(--header-text);
   outline-offset: 2px;
 }
 
@@ -484,7 +484,7 @@ footer {
 }
 
 .footer-link:hover {
-  color: var(--accent);
+  color: var(--header-text);
   background-color: var(--border);
   transform: translateY(-2px);
   text-decoration: none;
@@ -501,7 +501,7 @@ footer {
 }
 
 .footer-link:focus {
-  outline: 2px solid var(--accent);
+  outline: 2px solid var(--header-text);
   outline-offset: 2px;
 }
 
@@ -574,5 +574,5 @@ section {
 }
 
 .card a {
-  color: #ff79c6;
+  color: var(--header-text);
 }
