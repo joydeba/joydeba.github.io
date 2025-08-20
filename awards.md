@@ -42,6 +42,11 @@ title: "Awards & Activities"
 - Organized academic and professional development events
 - Served as liaison between students and faculty administration
 
+#### **Lead Organizer** | *7th Symposium on Innovations in Computer Science and Applied Computing (ICSAC)*
+- Coordinated major academic symposium with national participation
+- Managed logistics, speaker arrangements, and academic program
+- Successfully facilitated knowledge sharing across computer science disciplines
+
 #### **Vice President – Social** | *CSGC-UofS* (Computer Science Graduate Committee)
 - Organized social events and community building activities
 - Enhanced student engagement and networking opportunities
@@ -89,6 +94,16 @@ title: "Awards & Activities"
 #### **Volunteer** | *Folk Festival*
 - Supported community arts and cultural events
 - Contributed to event organization and management
+
+### COVID-19 Community Support (2020–2022)
+- **Student Support Coordinator**: Helped new graduate and undergraduate students with accommodation, groceries, and transportation during pandemic
+- **Community Event Organizer**: Arranged social events to improve mental health including:
+  - Student orientations and welcome events
+  - Global Village cultural celebrations
+  - Art competitions for children of graduate students
+  - Summer cricket tournaments and sports activities
+  - Appreciation parties and indoor game nights
+  - Academic lab social events (SRLab and iSELab)
 
 ---
 

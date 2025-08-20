@@ -13,6 +13,24 @@ My research specializes in:
 - **Machine Learning in Software Development**
 - **Pull Request Analysis and Recommendation Systems**
 
+## Research Impact & Significance
+
+My research in automated backporting addresses critical software maintenance challenges that affect global software stability and security. This work is motivated by real-world software failures including:
+
+- **Mars Climate Orbiter mishap** - Software unit conversion errors
+- **Ariane 5 rocket failure** - Integer overflow in guidance system
+- **Heartbleed vulnerability** - Critical security flaws in stable software
+- **Windows operating system issues** - Version management complexities
+- **Patriot missile defense failures** - Software update and maintenance issues
+
+### Economic Impact
+My automated backporting solutions have the potential to save up to **90% of software development costs** related to version management and maintenance, representing potential savings of **$2.08 trillion annually** for large-scale software ecosystems. By automating the identification and resolution of bugs and vulnerabilities in stable software versions, this research aims to:
+
+- **Enhance software quality** and reliability for end-users
+- **Reduce development costs** through automated processes  
+- **Mitigate security risks** and financial losses from software issues
+- **Improve stability** of critical software systems worldwide
+
 ## Research Publications
 
 ### Journal Articles
@@ -84,5 +102,27 @@ See the [Projects](/projects) page for detailed information about my research to
 - **Automated Software Engineering Journal**
 - **Empirical Software Engineering Journal**
 - **ACM Human-Computer Interaction**
+
+---
+
+## Academic Service & Peer Review
+
+### Conference & Journal Reviews
+Served as sub-reviewer for numerous prestigious venues including:
+- **ICSME 2023** (International Conference on Software Maintenance and Evolution)
+- **SANER 2023** (International Conference on Software Analysis, Evolution and Reengineering)  
+- **FSE** (ACM Joint European Software Engineering Conference and Symposium)
+- **JSS** (Journal of Systems and Software) - 2020, 2022
+- **ASE 2020** (Automated Software Engineering)
+- **MSR** (Mining Software Repositories)
+- **ICSE 2020** (Tool Demo Track)
+- **IWSC 2020** (International Workshop on Software Clones)
+- **ICSA** (International Conference on Software Architecture)
+- **ISEC 2022** (Innovations in Software Engineering Conference)
+
+### Editorial & Organizational Service
+- **Lead Organizer**: 7th Symposium on Innovations in Computer Science and Applied Computing (ICSAC)
+- **Internal Reviewer**: Provided detailed reviews for lab colleagues' research submissions
+- **Academic Mentorship**: Guided junior researchers in publication preparation
 
 📚 **Complete profile:** [ResearchGate](https://www.researchgate.net/profile/Debasish-Chakroborti) | [Google Scholar](https://scholar.google.com)

@@ -12,7 +12,7 @@ title: "Education"
 
 - **Specialization**: Software Engineering, Automated Backporting, and Machine Learning
 - **Research Focus**: Advanced techniques in automated software backporting using AI/ML approaches
-- **Dissertation**: "Advanced Techniques in Automated Software Backporting"
+- **Dissertation**: "Automated Backporting for Efficient Version Management in Software Repositories"
 - **Research Areas**: 
   - CNN-based backporting recommendation systems
   - Large Language Model applications in code analysis
