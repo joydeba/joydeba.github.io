@@ -12,6 +12,8 @@ My research specializes in:
 - **Automated Code Analysis and Backporting**
 - **Machine Learning in Software Development**
 - **Pull Request Analysis and Recommendation Systems**
+- **Scientific Workflow Management Systems** - Data management for research computing
+- **FAIR Data Principles** - Findable, Accessible, Interoperable, and Reusable data management
 
 ## Research Impact & Significance
 
@@ -30,6 +32,10 @@ My automated backporting solutions have the potential to save up to **90% of sof
 - **Reduce development costs** through automated processes  
 - **Mitigate security risks** and financial losses from software issues
 - **Improve stability** of critical software systems worldwide
+
+### Research Projects & Applications
+- **Scientific Data Management**: Developed software solutions for phenotyping and genotyping research data management, contributing to advances in biological research computing
+- **Workflow Management Systems**: Created intermediate data routing and reusing mechanisms in Scientific Workflow Data Management Systems (SWDMSs), implementing FAIR principles (Findable, Accessible, Interoperable, Reusable) for research data
 
 ## Research Publications
 
@@ -99,9 +105,13 @@ See the [Projects](/projects) page for detailed information about my research to
 - **ICSME** (International Conference on Software Maintenance and Evolution)  
 - **ICPC** (International Conference on Program Comprehension)
 - **MSR** (Mining Software Repositories)
+- **ICSA** (International Conference on Software Architecture)
+- **KSEM** (Knowledge Science, Engineering and Management)
+- **CCPE** (Concurrency and Computation: Practice and Experience)
 - **Automated Software Engineering Journal**
 - **Empirical Software Engineering Journal**
 - **ACM Human-Computer Interaction**
+- **Springer** book chapters
 
 ---
 
