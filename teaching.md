@@ -47,6 +47,25 @@ Taught 1st, 2nd, and 4th year courses in Computer Science and Engineering
 - **CMPT 141**: Introduction to Computer Science
 - **Database Management Systems**
 
+## Professional Teaching Development
+
+### LIFT Certificate Program – Saskatchewan Polytechnic
+**Learning and Instruction for Teachers (LIFT)**
+
+Completed comprehensive professional development program in pedagogy and instructional design:
+
+- **LIFT-1000**: Interactive Lecturing
+- **LIFT-1001**: Learning Environment Management
+- **LIFT-1002**: Formative Assessments
+<!-- - **LIFT-1003**: Summative Assessments -->
+- **LIFT-1004**: Indigenization & Reconciliation
+- **LIFT-1005**: Learner Success
+- **LIFT-1006**: Curriculum & Instruction
+- **LIFT-1007**: Learning Technologies
+<!-- - **LIFT-1008**: Instructional ePortfolio (Capstone) -->
+
+This training enhanced my pedagogical skills in interactive teaching methods, assessment design, inclusive education practices, and integration of learning technologies in the classroom.
+
 ## Teaching Philosophy
 I bring both theoretical depth and practical experience to the classroom, connecting cutting-edge research to real-world practice. I enjoy mentoring students and developing software engineering courses that bridge academic concepts with industry applications.
 
