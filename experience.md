@@ -7,9 +7,16 @@ title: "Experience"
 
 ## Current Positions (2024–Present)
 
+### Living Skies Postdoctoral Fellow
+**Department of Computer Science, University of Saskatchewan** | *2024–Present*
+- **NSERC CREATE Software Analytics Research (SOAR)** project
+- Conduct advanced research in automated software backporting and AI-driven development tools
+- Collaborate with industry partners on software analytics and maintenance solutions
+- Contribute to training the next generation of software analytics researchers
+
 ### Faculty at School of Computing and Digital Innovation
 **Saskatchewan Polytechnic** | *2024–Present*
-- Conduct classes in **Cloud Computing and Blockchain Program**
+- Conduct classes in **Computer System Technology** and **Cloud Computing & Blockchain** programs
 - Develop curriculum integrating theoretical concepts with practical applications
 - Mentor students in advanced computing technologies and industry best practices
 
