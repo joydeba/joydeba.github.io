@@ -7,6 +7,12 @@ title: "Experience"
 
 ## Current Positions (2024–Present)
 
+### Instructor at School of Computing and Digital Innovation
+**Saskatchewan Polytechnic** (Regina Campus) | *2024–Present*
+- Teach **Computer Systems Technology** (incl. COOS-190/294/295, COET-295, CNET-184, CWEB-280, CMPT-145) and **Cloud Computing & Blockchain** (CCMP-600–606, DEVP-600, PROJ-611)
+- Design/rewrite course and lab materials; mentor students
+- **Selected Faculty Participant**, China Henan (ZJTIE) Transnational Education Project (2026): teaching and conducting labs in person in China, faculty meetings for collaboration, cultural exchange, and preparation for faculty travel abroad (institutional travel training and partnership coordination)
+
 ### Living Skies Postdoctoral Fellow
 **Department of Computer Science, University of Saskatchewan** | *2024–Present*
 - **NSERC CREATE Software Analytics Research (SOAR)** project
@@ -14,30 +20,23 @@ title: "Experience"
 - Collaborate with industry partners on software analytics and maintenance solutions
 - Contribute to training the next generation of software analytics researchers
 
-### Faculty at School of Computing and Digital Innovation
-**Saskatchewan Polytechnic** | *2024–Present*
-- Conduct classes in **Computer System Technology** and **Cloud Computing & Blockchain** programs
-- Develop curriculum integrating theoretical concepts with practical applications
-- Mentor students in advanced computing technologies and industry best practices
-
 ### AI Automation Consultant 
-**Cloud Linux Software, Inc.** (Delaware Corporation, USA) | *2025*
-- Provide expert advice on developing **AI-based automated backporting tools**
-- Apply PhD research to real-world enterprise software development challenges
-- Design and architect machine learning solutions for automated code analysis
+**Cloud Linux Software, Inc.** (Delaware Corporation, USA) | *2025–2026*
+- Research advisory consulting on **AI-based automated backporting** tooling
+- Apply PhD research to production software-maintenance challenges
 
 ---
 
 ## Academic Positions
 
 ### Sessional Lecturer
-**Department of Computer Science, University of Saskatchewan** | *2024*
-- Delivered lectures and conducted laboratory sessions in Computer Science
-- Taught advanced topics in software engineering and programming
-- Supervised student projects and provided academic mentorship
+**Department of Computer Science, University of Saskatchewan** | *Spring/Summer 2025*
+- Taught **CMPT 145.3** Principles of Computer Science (sections MT1 & MT2; CRNs 41442, 60860)
+- Full course responsibility including end-of-course assessments; guided 3 TAs
 
 ### Teaching and Research Assistant
 **University of Saskatchewan** | *2017–2024*
+- **Teaching Assistant / Student Assistantship** (PSAC 40004): CMPT 214 (Fall 2023), 145 (Summer 2023), 370 (Fall 2022), 280 (2022–2023), 270 (2020–2022), 141, and Database Management Systems
 - **Plant Phenotyping and Imaging Research Centre**
 - **Global Institute for Food Security**
 
@@ -45,17 +44,30 @@ title: "Experience"
 - Developed **RISP and RISPts** data re-usability algorithms within Workflow Management Systems
 - Created comprehensive tools for software engineering analysis:
   - **Baczer**: Backporting analysis framework
-  - **ReBack**: CNN-based pull request analysis
+  - **ReBack**: CNN-based pull-request recommendation
   - **BackTrans**: LLM-powered backporting translation
-  - **BackSlice**: Intelligent backporting recommendation system
-- Built **InsCount**: UNet-based tool for counting dense organs in plant images
+  - **BackSlice**: Backport slicing for accurate change propagation
+  - Built **InsCount**: UNet-based tool for counting dense organs in plant images
 - Advanced research in software engineering and image processing domains
 
+### Lecturer (on study leave)
+**Computer Science and Engineering Discipline, Khulna University, Bangladesh** | *2017–2024*
+- On study leave for M.Sc. and Ph.D. studies at the University of Saskatchewan
+
 ### Lecturer
-**Computer Science and Engineering Discipline, Khulna University, Bangladesh** | *2013–2024*
-- Conducted classes and supervised research projects
-- Implemented university websites: [ku.ac.bd](https://ku.ac.bd) and [iccit.org.bd](https://iccit.org.bd/2013/)
+**Computer Science and Engineering Discipline, Khulna University, Bangladesh** | *2013–2017*
+- Taught Structured Programming, Software Development Project, Advanced Programming Laboratory, and Software Engineering and Information System
+- Implemented university websites: [ku.ac.bd](https://ku.ac.bd), [iccit.org.bd](https://iccit.org.bd/2013/), and the Convocation 2016 Registration Website
 - **Technologies used**: HTML, CSS, JavaScript, R, Python, Java, .NET, Apache Web Server, GitHub
+
+### Part-time Lecturer
+**North Western University, Khulna, Bangladesh** | *2014–2016*
+- Computer Science courses for the **BA** program
+- Part-time university teaching concurrent with the Khulna University appointment
+
+### Instructor (Part-time)
+**Higher Secondary Teachers' Training Institute (HSTTI), Khulna, Bangladesh** | *2014–2016*
+- ICT courses for high school teachers
 
 ---
 
@@ -72,7 +84,7 @@ title: "Experience"
 - Enhanced the **Wilger website** at [wilger.net](https://www.wilger.net)
 - Implemented modern web development practices and user experience improvements
 
-### GSA Office Coordinator (Part-time)
+### GSA Office Web Coordinator (Part-time)
 **Graduate Students' Association, University of Saskatchewan** | *2022–2024*
 - Maintained the **GSA website** at [gsa.usask.ca](https://gsa.usask.ca)
 - Added new web pages based on services and events
@@ -85,7 +97,7 @@ title: "Experience"
 - Implemented algorithmic solutions for educational placement optimization
 
 ### Software Engineer
-**Nascenia Limited, Bangladesh** | *2013*
+**Nascenia Limited, Bangladesh** | *29 May – 30 September 2013*
 - **SnapKnot Project**: Developed centralized wedding photographer directory website
 - Website: [snapknot.com](https://snapknot.com/)
 - Implemented backend functionality for searching photographers and couples
@@ -94,19 +106,20 @@ title: "Experience"
 ### Software Engineer
 **Divine IT Limited, Bangladesh** | *2012–2013*
 - Worked on various **ERP systems** at [divineit.net](https://www.divineit.net)
-- **Projects**: Lines Pay, Sphere, and Prism systems
+- **Projects**: Lines Pay, Sphere, Prism, and Centroid
 - **Technologies**: Django, MySQL, PostgreSQL, SQLite, SVN
 
 ---
 
 ## Technical Skills Demonstrated
 
-**Programming Languages**: Python, Java, C#, Ruby, JavaScript, R  
-**Web Development**: HTML, CSS, ASP.NET, Django, Ruby on Rails  
-**Machine Learning**: CNN, UNet, LLM applications  
-**Databases**: MySQL, PostgreSQL, SQLite  
+**Programming Languages**: Python, Java (J2SE, J2ME), C++, C#, Ruby, JavaScript, R, PHP, MATLAB, PROLOG, OpenGL, Assembly (8085, 8086 MASM)  
+**Web Development**: HTML, CSS, JavaScript, Ajax, XML, ASP.NET, Django, Ruby on Rails, WordPress, Joomla  
+**Machine Learning**: CNN, UNet, LLM applications, TensorFlow/PyTorch  
+**Databases**: MySQL, PostgreSQL, SQL Server, SQLite, CouchDB  
+**Systems**: Windows, Linux (Ubuntu), macOS; DNS and mail server configuration  
 **Development Tools**: Git, SVN, Apache Web Server, GitHub  
-**Specialized Areas**: Big Data, API Development, Traffic Management Systems
+**Specialized Areas**: Big Data, API Development, Traffic Management Systems, Software Engineering Automation
 
 ---
 

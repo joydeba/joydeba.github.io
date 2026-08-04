@@ -1,0 +1,308 @@
+.d2l-quiz-submission-exit-preview-button {
+	float: right;
+}
+
+[dir="rtl"] .d2l-quiz-submission-exit-preview-button {
+	float: left;
+}
+
+.d2l-quiz-submission-header-right {
+    position: absolute;
+    top: 0.75rem;
+    right: 1rem;
+}
+
+[dir='rtl'] .d2l-quiz-submission-header-right {
+    position: absolute;
+    top: 0.75rem;
+    right: unset;
+    left: 1rem;
+}
+
+.d2l-quiz-submission-header-right > .dco_c:first-child {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+div.d2l-align-outcomes-indicator-container {
+    position: relative;
+    text-align: right;
+    padding: 0 0.5rem;
+    display: inline-block;
+}
+
+[dir="rtl"] div.d2l-align-outcomes-indicator-container {
+    text-align: left;
+}
+
+div.d2l-quiz-submission-question-header-container-retake-incorrect {
+    padding: 3px;
+    text-align: center;
+}
+
+div.d2l-quiz-submission-question-header-container-retake-incorrect.highlighted {
+    background: #f9fbff;
+    border-top: 1px solid #cdd5dc;
+    border-bottom: 1px solid #cdd5dc;
+}
+
+div.d2l-quiz-submission-question-header-container-retake-incorrect.unhighlighted {
+    background: none;
+    border-top: 1px solid #cdd5dc;
+}
+
+div.d2l-quiz-submission-question-header-container-retake-incorrect td:first-child {
+    display: flex;
+    align-items: center;
+}
+
+div.d2l-quiz-submission-question-header-container-retake-incorrect span.d2l-body-small {
+    margin: 0 10px;
+}
+
+div.d2l-quiz-submission-question-header-container-retake-incorrect d2l-icon {
+    margin-right: 10px
+}
+
+[dir="rtl"] div.d2l-quiz-submission-question-header-container-retake-incorrect d2l-icon {
+    margin-right: 0px;
+    margin-left: 10px;
+
+    -webkit-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+    transform-origin: center;
+}
+
+.d2l-page-header {
+    margin: 0 !important;
+    padding: 7px 0 0 0 !important;
+}
+
+.d2l-tool-actions.d2l-left {
+    padding: 0 !important;
+}
+
+.d2l-page-main-padding {
+    padding: 0 !important;
+}
+
+/* Styles for Revamped Submission Detail View */
+.revamped {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 18px;
+}
+
+.revamped.pt-11 {
+    padding-top: 11px;
+}
+
+@media (max-width: 615px) {
+    .revamped {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+.revamped > .dco_c:first-child {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styles for Updated Submission Page */
+.updated-header {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-top: 50px;
+}
+
+.updated-image-spacing {
+    z-index: 1000;
+    width: 144px;
+    height: 144px;
+    max-width: 480px;
+}
+
+.border-spacing {
+    margin-top: -108px;
+    z-index: -1000;
+}
+
+.bottom-spacing {
+    margin-bottom: 42px;
+}
+
+@keyframes fade-in-animation {
+    0% {
+        opacity: 0;
+        transform: translateY(10px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+.submission-fade-in-first {
+    animation-name: fade-in-animation;
+    animation-delay: 0.1s;
+    animation-duration: 0.6s;
+    animation-fill-mode: backwards;
+}
+
+.submission-fade-in-second {
+    animation-name: fade-in-animation;
+    animation-duration: 0.8s;
+    animation-delay: 0.7s;
+    animation-fill-mode: backwards;
+}
+
+.updated-submission-question-header {
+    background: #f1f5fb;
+    border-radius: 0px;
+    border-style: solid;
+    border-color: #f1f5fb;
+    border-width: 2px;
+    margin-top: 0px;
+    margin-bottom: 18px;
+    padding: 0px 14px;
+    color: var(--d2l-color-ferrite);
+}
+
+/* Header */
+.margin-auto > .dco_c:first-child {
+    max-width: 930px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.revamped-header > .dco_c:first-child {
+    display: flex;
+	align-items: center;
+	gap: 18px;
+}
+
+.revamped-header .title {
+	flex-grow: 1;
+    min-width: 0;
+}
+
+.revamped-header .title > .dco_c:first-child {
+    display: flex;
+	flex-grow: 1;
+	justify-content: space-between;
+	min-width: 0;
+	align-items: center;
+	gap: 18px;
+    min-width: 0;
+}
+
+.revamped-header .title > .dco_c:first-child > label {
+    white-space: nowrap;
+    font-size: 16px;
+}
+
+.revamped-header .title > .dco_c:first-child > .vui-heading-2 {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding: 0;
+	margin: 0;
+	font-size: 1.2rem;
+	font-weight: 600;
+	line-height: 42px;
+}
+
+.revamped-header .close {
+    align-self: flex-start;
+}
+
+@media(max-width: 767px) {
+	.revamped-header .title > .dco_c:first-child {
+		flex-direction: column;
+		align-items: unset;
+		gap: 6px;
+	}
+}
+
+/* Submission Image */
+.revamped-inner .timing-image img {
+    width: auto !important;
+    height: 100% !important;
+    max-width: 480px;
+}
+
+.revamped-inner .vui-heading-2 {
+    margin: 0;
+    padding: 0;
+	color: var(--d2l-color-ferrite);
+}
+
+.revamped-inner .vui-heading-3 {
+    margin-top: 0px;
+    margin-bottom: 18px;
+    padding: 0;
+	color: var(--d2l-color-ferrite);
+}
+
+.revamped-inner > .dco_c:first-child {
+    display: flex;
+    flex-direction: column;
+}
+
+.revamped-inner .text-center {
+    text-align: center;
+}
+
+.revamped-inner .info > .dco_c:first-child {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.revamped-inner .release > .dco_c:first-child {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.revamped-inner .info, .revamped-inner .score, .revamped-inner .message {
+	color: var(--d2l-color-ferrite);
+}
+
+.revamped-inner .status > .dco_c:first-child > h2 {
+    margin: 0;
+}
+
+.revamped-inner .status.text-center > .dco_c:first-child > label:last-child::before {
+    content: "\2022";
+    margin-left: 0.4em;
+    margin-right: 0.4em;
+}
+
+.revamped-inner .d2l-grades-score {
+    font-weight: bold;
+}
+
+.revamped-inner .score {
+	padding: 15px 27px;
+    border-radius: 8px;
+    background-color: var(--d2l-color-sylvite);
+    overflow-x: auto;
+}
+
+.revamped-inner .footer > .dco_c:first-child {
+    display: flex;
+    flex-direction: column;
+}
+
+.revamped .small-gap > .dco_c:first-child, .revamped.small-gap > .dco_c:first-child {
+    gap: 48px;
+}
+
+.revamped .large-gap > .dco_c:first-child, .revamped.large-gap > .dco_c:first-child {
+    gap: 60px;
+}
+

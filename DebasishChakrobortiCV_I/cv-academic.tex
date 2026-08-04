@@ -1,0 +1,85 @@
+%% Academic CV — Debasish Chakroborti (Joy), Ph.D.
+%% Compile with: pdflatex cv-academic && biber cv-academic && pdflatex cv-academic && pdflatex cv-academic
+\documentclass[a4paper, 10pt, english]{curve}
+
+\usepackage{settings}
+\usepackage{marvosym}
+% fontawesome5 already loaded by settings.sty — do not load fontawesome (v4)
+\usepackage{academicons}
+
+\ifxetexorluatex
+  \usepackage{fontspec}
+  \usepackage[p,osf,swashQ]{cochineal}
+  \usepackage[medium,bold]{cabin}
+  \usepackage[varqu,varl,scale=0.9]{zi4}
+\else
+  \usepackage[T1]{fontenc}
+  \usepackage[p,osf,swashQ]{cochineal}
+  \usepackage{cabin}
+  \usepackage[varqu,varl,scale=0.9]{zi4}
+\fi
+
+\addbibresource{own-bib.bib}
+\myname{Chakroborti}{D.}
+
+\definecolor{SwishLineColour}{HTML}{b9770e}
+\definecolor{MarkerColour}{HTML}{1e8449}
+
+\includecomment{fullonly}
+\excludecomment{fullonly}
+
+\leftheader{%
+  {\LARGE\bfseries\sffamily Debasish Chakroborti (Joy), Ph.D.\par}
+  \raggedright
+  \makefield{\faGlobe}{\url{https://joydeba.github.io/}}%
+  \makefield{\faEnvelope}{\texttt{debasish.chakroborti@usask.ca}}%
+  \makefield{\faGithub}{\url{https://github.com/joydeba}}%
+  \makefield{\faLinkedin}{\url{https://www.linkedin.com/in/joydeba/}}%
+  \makefield{\faBook}{\url{https://scholar.google.com/citations?user=VdrsyT8AAAAJ}}%
+  \makefield{\faIdBadge}{\url{https://orcid.org/0000-0002-1597-8162}}%
+  \makefield{\faGraduationCap}{\url{https://www.researchgate.net/profile/Debasish-Chakroborti}}%
+  \makefield{\faTwitter}{\texttt{@joydeba}}%
+  \makefield{\faHome}{\texttt{410 Stensrud Rd \#118, Saskatoon}}%
+  \makefield{\Mobilefone}{\texttt{306 914 6212}}%
+}
+
+\rightheader{~}
+\begin{fullonly}
+\photo[r]{photo}
+\photoscale{0.13}
+\end{fullonly}
+
+\title{Curriculum Vitae (Academic)}
+\begin{document}
+\makeheaders[c]
+\vspace{-4mm}
+\makerubric{objectives}
+\vspace{-5mm}
+\makerubric{education}
+\vspace{-5mm}
+\input{publications}
+\vspace{-5mm}
+\makerubric{talks}
+\vspace{-5mm}
+\makerubric{grants}
+\vspace{-5mm}
+\makerubric{media}
+\vspace{-5mm}
+\makerubric{reviewing}
+\vspace{-5mm}
+\makerubric{collaborations}
+\vspace{-5mm}
+\makerubric{mentoring}
+\vspace{-5mm}
+\makerubric{teaching}
+\vspace{-5mm}
+\makerubric{employment}
+\vspace{-5mm}
+\makerubric{awards}
+\vspace{-5mm}
+\makerubric{certifications}
+\vspace{-5mm}
+\makerubric{skills}
+\vspace{-5mm}
+\makerubric{references}
+\end{document}

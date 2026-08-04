@@ -7,59 +7,58 @@ title: "Education"
 
 ## Doctoral Studies
 
-### Ph.D. in Computer Science (2020–2024)
-**University of Saskatchewan, Canada**
+### Doctor of Philosophy, Computer Science/Software Engineering
+**University of Saskatchewan, Canada** | *January 2020 – December 2024*
 
-- **Specialization**: Software Engineering, Automated Backporting, and Machine Learning
-- **Research Focus**: Advanced techniques in automated software backporting using AI/ML approaches
-- **Dissertation**: "Automated Backporting for Efficient Version Management in Software Repositories"
-- **Research Areas**: 
-  - CNN-based backporting recommendation systems
-  - Large Language Model applications in code analysis
-  - Automated pull request analysis and adaptation
-  - Machine learning applications in software maintenance
+- **Thesis**: *Automated Backporting for Efficient Version Management in Software Repositories*
+- **Advisors**: Prof. Dr. Chanchal K. Roy and Prof. Dr. Kevin Schneider
+- **Course mark**: 89%
 
-**Research Contributions:** Advanced AI/ML techniques for automated software backporting, pull request analysis, and intelligent code recommendation systems.
+**Awards during the Ph.D.**
+- Carl McCrosky Innovation Scholarship for Graduate Studies (2023)
+- GSA Mark Kroeker Exceptional Student Leadership Award (2023)
+- Ph.D. Citizenship Award (2024)
+- Departmental Scholarship
+- SOAR, SEMLA, and CSGC Best Poster Awards
+- Ivan and Margaret Toutloff Award
+- Graduate Travel Awards (Seattle, Melbourne, Montreal)
+- Education — Graduate Award, Friends Club of Saskatoon (2024), for remarkable contribution in research and innovation
 
 ---
 
 ## Master's Studies
 
-### M.Sc. in Computer Science (2017–2019)
-**University of Saskatchewan, Canada**
+### Master of Science, Computer Science/Big Data
+**University of Saskatchewan, Canada** | *September 2017 – November 2019*
 
-- **Research Focus**: Software Engineering and Image Processing
-- **Projects**: 
-  - RISP and RISPts data re-usability algorithms within Workflow Management Systems
-  - Plant phenotyping and imaging research applications
-  - InsCount tool development for dense organ counting in plant images using UNet
+- **Thesis**: *An Intermediate Data-driven Methodology for Scientific Workflow Management System to Support Reusability*
+- **Advisors**: Prof. Dr. Chanchal K. Roy and Prof. Dr. Kevin Schneider
+- **Defense**: 12 November 2019 · Requirements completed 23 November 2019
+- **Course mark**: 89%
+- **Awards**: Saskatchewan Innovation and Opportunity Scholarship; University of Saskatchewan Faculty Stipend
 
 ---
 
 ## Undergraduate Studies
 
-### B.Sc. in Computer Science and Engineering (2008–2012)
-**Khulna University, Bangladesh**
+### Bachelor of Science, Computer Science and Engineering
+**Khulna University, Bangladesh** | *January 2008 – May 2012*
 
-- **Foundation**: Strong theoretical and practical foundation in computer science
-- **Coursework**: Data structures, algorithms, software engineering, database systems, computer networks
-- **Projects**: Various software development projects using multiple programming languages
-- **Academic Excellence**: Recipient of Dean's Merit Scholarship
-
----
-
-## Professional Development
-
-### Research Training
-- **Plant Phenotyping and Imaging Research Centre**, University of Saskatchewan
-- **Global Institute for Food Security**, University of Saskatchewan
-- Advanced training in agricultural technology applications and computer vision
-
-### Industry Experience Integration
-- Continuous learning through industry collaborations
-- Stay current with latest developments in AI/ML and software engineering
-- Regular participation in academic conferences and workshops
+- **Thesis**: *Web Service Performance Enhancement for Portable Devices Modifying SOAP Security Principle*
+- **Supervisor**: Dr. Masud Rahman
+- **CGPA**: 3.73/4.00 (1st class 3rd)
+- **Class Representative** (Term 3.1), CSE Discipline
+- **Awards**: Innovation Award, Khulna University; Dean's Merit Scholarship / Merit List Scholarships (2008–2012); 3rd place, Digital Innovation Fair, Khulna (2010) for Geographic Information System Website and Khulna City Corporation Holding Tax Management System; Contestant, Citi Financial IT Case Competition (organized by D.Net, 2010)
+- **Coursework projects**: Simple Arithmetic Evaluation (Java); Mobile Photo Editor (J2ME); Geographic Information System Website; Khulna City Corporation Holding Tax Management System; KU Alumni Website; E-library Website; Reunion website (PHP)
 
 ---
 
-My educational journey has provided me with a comprehensive understanding of both theoretical computer science principles and practical software development skills, enabling me to bridge academic research with real-world applications.
+## Secondary Education
+
+### Higher Secondary Certificate (H.S.C.), Science
+**Police Line School and College, Rangpur, Bangladesh** (Rajshahi Board) | *2006*
+
+### Secondary School Certificate (S.S.C.), Science
+**Gayabari School and College, Dimla, Nilphamari, Bangladesh** (Rajshahi Board) | *2004*
+- Recognized among the **top 10 students in Dimla Upazila** for the S.S.C. result
+- **Winner**, Dimla Upazila general knowledge competition (Grade 9 / Class IX), as part of a **4-person team**

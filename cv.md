@@ -5,16 +5,6 @@ title: "CV"
 
 # Curriculum Vitae
 
-For comprehensive details about my academic background, professional experience, research contributions, and achievements, please download my complete CV:
+📄 **[Download my CV (PDF)](cv-academic.pdf)**
 
-📄 **[Download Complete CV](cv.pdf)**
-
-This document includes:
-- **Complete employment history** and project details
-- **Full publication list** with citations and DOIs  
-- **Academic achievements** and awards received
-- **Technical skills** and expertise areas
-- **Conference presentations** and invited talks
-- **Professional service** and community involvement
-
-*The online pages provide organized summaries while the CV contains the complete academic record.*
+My CV covers employment and projects, publications with citations and DOIs, teaching, awards, technical skills, and references (available upon request). Related materials: [Teaching dossier](teaching-materials/teaching-dossier.pdf) · [LIFT instructional ePortfolio](https://joydeba.github.io/teaching-materials/lift-eportfolio/).

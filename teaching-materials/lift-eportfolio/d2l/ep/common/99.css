@@ -1,0 +1,235 @@
+/* instructions submission text */
+.d2l-dropbox-submissiontext {
+	max-width: 732px;
+}
+
+/* assignment submission comments */
+.d2l-htmlblock-assignments-comments .d2l-htmlblock {
+	white-space: normal;
+}
+
+.d2l-htmlblock-assignments-comments .d2l-htmlblock p {
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+/* late assignment text */
+.d2l-dropbox-latetext {
+	line-height: normal;
+}
+
+/* assignment folder name */
+.d2l-foldername .dco_c {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.d2l-foldername a,
+.d2l-foldername label {
+	white-space: normal;
+}
+
+.d2l-foldername-title-row .dco_c {
+	display: flex;
+	align-items: center;
+	flex-wrap: nowrap;
+	min-width: 0;
+	flex: 1 1 auto;
+}
+
+.d2l-foldername-title-block .dco_c {
+	flex: 1 1 auto;
+	min-width: 0;
+}
+
+.d2l-foldername-actions .dco_c {
+	flex: 0 0 auto;
+}
+
+.d2l-foldername-icons .dco_c {
+	display: flex;
+	align-items: center;
+	flex: 0 0 auto;
+	flex-wrap: wrap;
+}
+
+.d2l-foldername-medium-font {
+	font-size: 0.85rem;
+}
+
+/* assignment folder dates display */
+.d2l-folderdates-wrapper div.dco_c {
+	display: flex;
+	flex-direction: column;
+}
+
+.d2l-folderdate-wrapper-row div.dco_c {
+	display: flex;
+	flex-direction: row;
+}
+
+.d2l-dates-text {
+	display: flex;
+	padding-top: 0.08rem;
+	font-size: 0.7rem;
+	color: var(--d2l-color-tungsten);
+	white-space: nowrap;
+}
+
+.d2l-dates-text-submission-page {
+	font-size: 0.8rem;
+	padding-bottom: 0.3rem;
+}
+
+/* assignment folder list in grid - List view feature Enabled */
+.d2l-folder-list-grid tr.d_gh th.d_gc {
+	min-width:350px;
+}
+
+.d2l-folder-list-grid tr.d_gh th.d_gc ~ th.d_gc {
+	min-width:inherit;
+}
+
+.d2l-folder-list-grid tr.d_gh th.d_gc ~ th.d_gc:last-child {
+	min-width: inherit;
+}
+
+.d2l-dropbox-feedback .dcs_cf {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+/* folder_user_mark */
+.d2l-assignment-mark-user .dsl_p_m,
+.d2l-assignment-mark-user .dsl_pmv,
+.d2l-assignment-mark-user .dsl_m,
+.d2l-assignment-mark-user .dsl_pmh {
+	overflow: visible;
+}
+
+.d2l-assignment-mark-user .dsl_p_m {
+	height: calc(100vh - 145px);
+}
+
+.d2l-assignment-mark-user.has-assessment-iterator .dsl_p_m {
+	height: calc(100vh - 208px);
+}
+
+.d2l-assignment-mark-user #z_bg,
+.d2l-assignment-mark-user #z_v,
+.d2l-assignment-mark-user #z_s {
+	background-color: var(--d2l-color-regolith);
+}
+
+.d2l-sticky-button-area {
+	position: sticky;
+	background-color: white;
+	bottom: 0;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	box-shadow: 0 -2px 4px 0 var(--d2l-color-ferrite);
+	border-top: 1px solid var(--d2l-color-mica);
+}
+
+.sticky-assessment-navigation {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 1;
+    top: 3.3rem;
+}
+
+.d2l-assignment-mark-user.has-assessment-iterator {
+   margin-top: 2.6rem;
+}
+
+@media (max-width: 615px) {
+    .sticky-assessment-navigation {
+        top: 3rem;
+    }
+}
+
+.feedback-container {
+	padding-top: 8px;
+}
+
+.feedback-container .fct_w {
+	padding-bottom: 24px !important;
+	max-width: 600px !important;
+}
+
+.feedback-container .d2l-label {
+	padding-bottom: 18px !important;
+	width: 600px !important;
+	white-space: pre-wrap;
+	font-size: 0.8rem;
+	font-weight: 700;
+	line-height: 1.2rem
+}
+
+.feedback-container p {
+	margin: 0 !important;
+}
+
+.feedback-container div {
+	max-width: 600px !important;
+}
+
+.feedback-container table.d_FG td.fl_n {
+	padding-top: 0px !important;
+}
+
+.feedback-container tr:nth-of-type(2) td {
+	padding-bottom: 0px !important;
+}
+
+.UrkundRed {
+	background-color: #CD2026;
+	width: 18px;
+	height: 18px;
+	border-radius: 2px;
+}
+
+.UrkundYellow {
+	background-color: #E87511;
+	width: 18px;
+	height: 18px;
+	border-radius: 2px;
+}
+
+.UrkundGreen {
+	background-color: #46A661;
+	width: 18px;
+	height: 18px;
+	border-radius: 2px;
+}
+
+.Urkund div{
+	display: inline-flex;
+	align-items: center;
+	margin-inline-end: 10px;
+}
+
+.add-to-portfolio-button-history {
+	display: flex;
+	justify-content: end;
+	margin-bottom: 0.5rem;
+}
+
+.add-to-portfolio-button-users {
+	display: flex;
+	justify-content: end;
+}
+
+.add-to-portfolio-button-observed {
+	margin: 0 -0.5rem;
+}
+
+@media print {
+	#REDT_comments {
+		display: none;
+	}
+}
+
+

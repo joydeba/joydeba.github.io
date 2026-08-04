@@ -1,7 +1,8 @@
-title: "Dr. Debasish Chakroborti"
+title: "Debasish Chakroborti, Ph.D."
 description: "PhD in Computer Science · Software Engineer · Instructor"
 baseurl: "" 
 url: "https://joydeba.github.io"
+permalink: pretty
 
 email: "debasish.chakroborti@usask.ca"
 phone: "306-914-6212"
@@ -15,4 +16,5 @@ stackoverflow: "www.stackoverflow.com/users/1797926/joydeba"
 markdown: kramdown
 theme: minima
 plugins:
-  - jekyll-scholar
+  - jekyll-seo-tag
+  - jekyll-sitemap

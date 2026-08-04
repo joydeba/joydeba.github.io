@@ -8,18 +8,19 @@ title: "Projects"
 ## AI & Machine Learning Projects
 
 ### [BackSlice](https://github.com/joydeba/BackSlice)
-**CNN-based Intelligent Backporting Recommendation System**
-- Advanced machine learning tool for automated software backporting
-- Uses Convolutional Neural Networks to analyze and recommend backporting candidates
-- Significantly improves efficiency of software maintenance processes
-- **Technologies**: Python, TensorFlow/PyTorch, CNN architectures
+**Backport slicing for accurate change propagation**
+- Program-analysis tool for accurate and essential propagation of backport changes
+- Identifies the essential parts of a changeset needed when adapting fixes across versions
+- Supports more precise integration of backports into stable releases
+- **Technologies**: Python, program slicing, software analysis
 
-### [ReBack](https://github.com/joydeba/ReBack) 
-**Automated Pull-Request Analysis & Recommendation**
-- Comprehensive system for analyzing GitHub pull requests
-- Machine learning-driven recommendation engine for code review
-- Automated classification and prioritization of backporting requests
-- **Technologies**: Python, Machine Learning, GitHub API
+### [ReBack](https://github.com/joydeba/ReBack)
+**CNN-based backport recommendation in social coding environments**
+- Recommends which pull requests and changes should be backported
+- Uses Convolutional Neural Networks for automated recommendation
+- Designed for social coding workflows such as GitHub pull requests
+- Published in *Automated Software Engineering* (ASE Journal), 2024
+- **Technologies**: Python, CNN / machine learning, GitHub API
 
 ### BackTrans
 **LLM-Based Backporting Translation Tool**
@@ -68,6 +69,7 @@ title: "Projects"
 **University Portal & Management System**
 - Complete university website and information management system
 - Implemented during tenure as lecturer at Khulna University
+- Also built the **Convocation 2016 Registration Website** for Khulna University
 - Comprehensive academic and administrative functionality
 - **Technologies**: HTML, CSS, JavaScript, Web Development
 
@@ -101,10 +103,45 @@ title: "Projects"
 - **Website**: [snapknot.com](https://snapknot.com/)
 
 ### ERP Systems (Divine IT Limited)
-**Lines Pay, Sphere, and Prism Systems**
+**Lines Pay, Sphere, Prism, and Centroid**
 - Enterprise resource planning solutions
 - Business process automation and management
 - **Technologies**: Django, MySQL, PostgreSQL, SQLite, SVN
+
+### ChakroLens
+**Personal photography brand and toolkit**
+- Brand identity (logos and outlined watermarks)
+- Darktable concert RAW processing styles (clean and dramatic looks)
+- Combines photography practice with custom post-processing tooling
+- **Website**: Coming soon
+- **Social**: Coming soon
+
+---
+
+## Undergraduate Coursework Projects (Khulna University, 2008–2012)
+
+### Simple Arithmetic Evaluation
+- Java (J2SE) coursework project (Eclipse)
+
+### Mobile Photo Editor
+- Mobile photo editing application in Java (J2ME / NetBeans)
+
+### Geographic Information System Website
+- GIS web application (ASP.NET, Ajax, HTML, CSS, JavaScript, MS SQL Server)
+- Shown at Digital Innovation Fair, Khulna (2010)
+
+### Khulna City Corporation Holding Tax Management System
+- Holding tax management software (C# /.NET, MS SQL Server)
+- Shown at Digital Innovation Fair, Khulna (2010)
+
+### KU Alumni Website
+- Alumni portal (ASP.NET, HTML, CSS, JavaScript, MS SQL Server)
+
+### E-library Website
+- Internet laboratory project (ASP.NET, HTML, CSS, MS SQL Server)
+
+### Reunion Website
+- Discipline project (PHP, HTML, CSS)
 
 ---
 
@@ -120,10 +157,11 @@ title: "Projects"
 
 ## Technical Expertise Demonstrated
 
-**Programming Languages**: Python, Java, C#, Ruby, JavaScript, R  
+**Programming Languages**: Python, Java (J2SE, J2ME), C++, C#, Ruby, JavaScript, R, PHP, MATLAB, PROLOG, OpenGL, Assembly (8085, 8086 MASM)  
 **Machine Learning**: CNN, UNet, LLM, TensorFlow, PyTorch  
-**Web Technologies**: HTML, CSS, ASP.NET, Django, Ruby on Rails  
-**Databases**: MySQL, PostgreSQL, SQLite  
+**Web Technologies**: HTML, CSS, JavaScript, Ajax, XML, ASP.NET, Django, Ruby on Rails, WordPress, Joomla  
+**Databases**: MySQL, PostgreSQL, SQL Server, SQLite, CouchDB  
+**Systems**: Windows, Linux (Ubuntu), macOS; DNS and mail server configuration  
 **Development Tools**: Git, SVN, Apache Web Server, GitHub  
 **Specialized Domains**: Computer Vision, Agricultural AI, Software Engineering Automation
 

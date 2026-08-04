@@ -3,20 +3,24 @@ layout: default
 title: "About"
 ---
 
-# About Dr. Debasish Chakroborti (Joy)
+# About Debasish Chakroborti (Joy), Ph.D.
 
-I am **Dr. Debasish Chakroborti**, also known as **Joy**. With over a decade of experience in software engineering and academia, I bring a unique combination of theoretical depth and practical expertise to both research and industry projects.
+I am **Debasish Chakroborti, Ph.D.**, also known as **Joy**. My research sits in **AI-assisted software maintenance**, aimed at keeping software **issue-free on the versions people actually use**.
 
-## Current Focus
+## Career Objectives
 
-My work spans from developing AI-driven automation tools to teaching the next generation of computer scientists. I currently serve as **Faculty** at Saskatchewan Polytechnic and work as an **AI Automation Consultant** for Cloud Linux Software, Inc.
+I pursue and continue research in:
+- Legacy-system monitoring
+- Technical debt management
+- Continuous maintenance
+- Cybersecurity maintenance
+- Resource optimization
+- Software sustainability
 
-## Philosophy & Approach
+Much of this work happens through **industry collaborations**. Alongside research, I train the next generation of computing professionals through teaching, and I want to grow that impact further.
 
-Originally from Bangladesh, I completed my undergraduate studies at Khulna University before pursuing graduate studies in Canada. I am passionate about bridging the gap between academic research and real-world software applications, particularly in developing tools that can automate and improve software development processes.
+## Current Roles
 
-## Community Impact
+I serve as **Faculty** at Saskatchewan Polytechnic (Computer System Technology; Cloud Computing & Blockchain) and as an **AI Automation Consultant** for Cloud Linux Software, Inc. I also continue research as a **Living Skies Postdoctoral Fellow** at the University of Saskatchewan.
 
-Throughout my career, I have been actively involved in leading student organizations, mentoring developers, and contributing to research communities. My goal is to continue advancing the field of software engineering through innovative research while preparing the next generation of computer scientists for the challenges of modern software development.
-
-*For detailed information about my background, visit the specialized pages: [Education](/education), [Experience](/experience), [Research](/research), [Teaching](/teaching), [Projects](/projects), and [Awards](/awards).*
+*For more detail, see [Education](/education), [Experience](/experience), [Research](/research), [Teaching](/teaching), [Projects](/projects), and [Awards](/awards).*

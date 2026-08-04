@@ -205,3 +205,22 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# LaTeX build artifacts (keep compiled CVs for the site)
+DebasishChakrobortiCV_I/*.aux
+DebasishChakrobortiCV_I/*.bbl
+DebasishChakrobortiCV_I/*.bcf
+DebasishChakrobortiCV_I/*.blg
+DebasishChakrobortiCV_I/*.log
+DebasishChakrobortiCV_I/*.out
+DebasishChakrobortiCV_I/*.run.xml
+DebasishChakrobortiCV_I/*.synctex.gz
+DebasishChakrobortiCV_I/*.pdf
+texput.log
+cv-academic.bbl
+cv-academic.blg
+
+# macOS / local junk
+.DS_Store
+**/_tmp_*
+Masud-Rahman-CV.pdf

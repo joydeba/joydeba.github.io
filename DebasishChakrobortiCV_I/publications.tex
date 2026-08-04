@@ -1,0 +1,14 @@
+%% Publication list — used by cv-academic.tex via \input{publications}
+\makerubrichead{Research Publications}
+
+\nocite{*}
+
+\printbibliography[heading={subbibliography},title={Journal Articles},type=article,resetnumbers=true]
+
+\printbibliography[heading={subbibliography},title={Conference Proceedings},type=inproceedings,notkeyword=poster,notkeyword=presubmission,resetnumbers=true]
+
+\printbibliography[heading={subbibliography},title={Under Submission / In Preparation},keyword=presubmission,resetnumbers=true]
+
+\printbibliography[heading={subbibliography},title={Books and Chapters},filter={booksandchapters},resetnumbers=true]
+
+\printbibliography[heading={subbibliography},title={Posters},keyword=poster,resetnumbers=true]
