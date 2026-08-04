@@ -23,7 +23,9 @@ Statements that present my teaching, research, and equity commitments.
 ## LIFT Instructional ePortfolio
 Professional instructional ePortfolio prepared for Saskatchewan Polytechnic’s **LIFT-1008** capstone (May 2026). Evidence is organized around instructor competencies (two artifacts + reflections each): Instruction & Delivery; Assessment & Evaluation; Diversity & Inclusion; Indigenization & Reconciliation; Professionalism, Development & Mentorship; Technology; Curriculum & Instruction.
 
-🌐 **[Open LIFT Instructional ePortfolio](https://joydeba.github.io/teaching-materials/lift-eportfolio/)**
+🌐 **[Open LIFT Instructional ePortfolio (Sask Poly Brightspace)](https://online.saskpolytech.ca/d2l/eP/presentations/presentation_preview_popup.d2l?presId=63930&pageId=3744&ou=6606)**
+
+📦 Local backup copy: [teaching-materials/lift-eportfolio/]({{ '/teaching-materials/lift-eportfolio/' | relative_url }})
 
 📄 **[LIFT Statement of Achievement (PDF)]({{ '/teaching-materials/lift-statement-of-achievement.pdf' | relative_url }})** — 90 hours completed (May 22, 2026)
 

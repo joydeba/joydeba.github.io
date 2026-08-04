@@ -20,7 +20,7 @@ title: "Certifications"
   - AWS Billing and Cost Management (Feb 2, 2025)
 
 ## Teaching & Institutional Professional Development
-- **LIFT** (Learners, Instruction & Fundamentals of Teaching) — Statement of Achievement, **90 hours**, Saskatchewan Polytechnic (May 22, 2026) — [PDF](teaching-materials/lift-statement-of-achievement.pdf) · [ePortfolio](https://joydeba.github.io/teaching-materials/lift-eportfolio/)
+- **LIFT** (Learners, Instruction & Fundamentals of Teaching) — Statement of Achievement, **90 hours**, Saskatchewan Polytechnic (May 22, 2026) — [PDF](teaching-materials/lift-statement-of-achievement.pdf) · [ePortfolio](https://online.saskpolytech.ca/d2l/eP/presentations/presentation_preview_popup.d2l?presId=63930&pageId=3744&ou=6606)
 - **New Instructor Orientation (NIO)** — Statement of Achievement, **18 hours** (Jan 14–16, 2025) — [PDF](teaching-materials/nio-statement-of-achievement.pdf)
 - **1-day Training on Pedagogy** (Induction for the Beginners) — CETL and IQAC, Khulna University (HEQEP), **12 September 2014**.
 - **3-day Training on Pedagogy** (Module 1 Teaching & Learning) — Centre of Excellence in Teaching & Learning (CETL) and Institutional Quality Assurance Cell (IQAC), Khulna University (HEQEP), **11–13 June 2015**. — [Certificate](teaching-materials/ku-cetl-pedagogy-2015.jpg)

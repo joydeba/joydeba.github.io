@@ -44,7 +44,7 @@ Designed and/or rewrote course and **lab materials** for most Saskatchewan Polyt
 - 📄 **[Research Statement (PDF)](teaching-materials/research-statement.pdf)** ([Markdown](teaching-materials/research-statement.md))
 - 📄 **[EDIA Statement (PDF)](teaching-materials/edia-statement.pdf)** — equity, diversity, inclusion, and accessibility ([Markdown](teaching-materials/edia-statement.md))
 - 📄 **[EDIDI Statement of Commitment (PDF)](teaching-materials/statement-of-commitment.pdf)** — equity, diversity, inclusion, decolonization, and Indigenization ([Markdown](teaching-materials/statement-of-commitment.md))
-- 🌐 **[LIFT Instructional ePortfolio](https://joydeba.github.io/teaching-materials/lift-eportfolio/)** — LIFT-1008 Brightspace ePortfolio (competency evidence, PDP/SMART goals, reflections)
+- 🌐 **[LIFT Instructional ePortfolio](https://online.saskpolytech.ca/d2l/eP/presentations/presentation_preview_popup.d2l?presId=63930&pageId=3744&ou=6606)** — LIFT-1008 Brightspace ePortfolio (competency evidence, PDP/SMART goals, reflections); [local backup](https://joydeba.github.io/teaching-materials/lift-eportfolio/)
 - 📄 **[LIFT Statement of Achievement (PDF)](teaching-materials/lift-statement-of-achievement.pdf)** — 90 hours completed (May 22, 2026)
 - 📚 **[All teaching materials](teaching-materials/)**
 
@@ -122,7 +122,7 @@ Coverage included Teaching Methods & Techniques (50 hours), statistical analysis
 **Learners, Instruction & Fundamentals of Teaching (LIFT)**
 
 **Statement of Achievement** — successfully completed **90 hours** (May 22, 2026; signed by ILDC Director).  
-📄 [Download statement](teaching-materials/lift-statement-of-achievement.pdf) · 🌐 [Open instructional ePortfolio](https://joydeba.github.io/teaching-materials/lift-eportfolio/)
+📄 [Download statement](teaching-materials/lift-statement-of-achievement.pdf) · 🌐 [Open instructional ePortfolio](https://online.saskpolytech.ca/d2l/eP/presentations/presentation_preview_popup.d2l?presId=63930&pageId=3744&ou=6606) · [local backup](https://joydeba.github.io/teaching-materials/lift-eportfolio/)
 
 Completed comprehensive professional development program in pedagogy and instructional design:
 

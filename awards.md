@@ -143,9 +143,10 @@ title: "Awards & Activities"
 
 ### Technology & Education Events
 
-#### **Volunteer Lead** | *Digitized-Technology Event*
-- Led technology showcase for Saskatchewan students
-- Promoted STEM education and career opportunities
+#### **Volunteer Lead** | *Digitized Technology* | *University of Saskatchewan*
+- Volunteer lead for the Digitized Technology event organized by the University of Saskatchewan for high school students
+- Led a technology showcase introducing computing and STEM pathways to visiting high school students
+- Promoted STEM education and career opportunities through hands-on outreach
 - Coordinated with industry partners and educational institutions
 
 #### **Volunteer Lead** | *SSPP* (Saskatchewan Student Partnership Program)
