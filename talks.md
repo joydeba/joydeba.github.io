@@ -27,5 +27,8 @@ Conference talk *Web Service Performance Enhancement for Portable Devices Modify
 Conference talk *Trust Based D2D Communications for Accessing Services in Internet of Things* (with Bairagi). Military Institute of Science and Technology (MIST), 21 to 23 December 2015.
 
 ### Local symposium talks (Saskatoon)
+- **GSA Research Conference 2022**. Poster presentation.
+- **Research Fest 2022**. Poster presentation (CSGC, University of Saskatchewan).
 - **SOAR Symposium 2021**. Poster *Identifying and Integrating Changesets in Backporting* (Best Poster).
 - **CSGC Research Fest / ICSAC**. Distinguished speaker recognition for a Research Fest talk ([certificate PDF](teaching-materials/csgc-research-fest-speaker-certificate.pdf)). Lead Organizer for the 7th ICSAC / Research Fest.
+- **P2IRC 2018, 2019**. Poster presentations (Plant Phenotyping and Imaging Research Centre, University of Saskatchewan / GIFS).

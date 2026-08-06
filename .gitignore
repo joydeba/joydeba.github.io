@@ -224,3 +224,10 @@ cv-academic.blg
 .DS_Store
 **/_tmp_*
 Masud-Rahman-CV.pdf
+ 
+# Ignore application / grant folders (keep local-only)
+university-of-guelph/
+CGRS-CPRA-Application/
+IVADO-Postdoc-2026/
+IVADO-Postdoc-2027/
+NSERC-Alliance-Advantage/
