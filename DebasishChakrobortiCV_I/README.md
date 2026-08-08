@@ -48,3 +48,5 @@ cp cv-academic.pdf cv-industry.pdf ../
 | `own-bib.bib` | Bibliography (synced from `research.md`) |
 | `settings.sty` | Template style / biblatex setup |
 | `photo.jpg` | Optional photo (enable `fullonly` in wrappers) |
+
+
