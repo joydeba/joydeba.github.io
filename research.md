@@ -132,6 +132,8 @@ My automated backporting solutions have the potential to save up to **90% of sof
 
 **3.** Chakroborti, D. Beyond Correctness: Technical Debt and Carbon Footprint of LLM-Agent versus Human Backports. To be submitted.
 
+**4.** Tasnim, J., Chakroborti, D., Roy, C. K., & Schneider, K. A. Impact of Backporting on the Quality of Stable Software Releases: A Comparative Analysis. To be submitted.
+
 ---
 
 ### Book Chapters and Posters
@@ -151,11 +153,11 @@ See the [Projects](/projects) page for detailed information about my research to
 
 ## Publication Impact Summary
 
-**Total**: 23 research items (2015–2026), including under review / submitted / in preparation  
+**Total**: 24 research items (2015–2026), including under review / submitted / in preparation  
 **Best Poster Awards**: 3 (2021–2022)  
 **Journal Articles**: 6 (including 1 under review)  
 **Conference Papers**: 10 (including submitted)  
-**In preparation**: 3  
+**In preparation**: 4  
 **Book Chapters & Posters**: 4  
 
 ### Premier Venues Include:
@@ -178,7 +180,7 @@ See the [Projects](/projects) page for detailed information about my research to
 - **Judge**, GSA Graduate Research Conference (2023)
 
 ### Journal reviewing
-- **Journal of Software: Evolution and Process (JSME / SMR)** — Reviewer (2023–2024; reviewer certificate / invitation reviews on file)
+- **Journal of Software: Evolution and Process (JSME / SMR)** — Reviewer (2023–2025; reviewer certificate / invitation reviews on file)
 - **Journal of Systems and Software (JSS)** — Reviewer / sub-reviewer (2020, 2022, 2025)
 
 ### Conference \& symposium reviewing

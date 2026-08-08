@@ -205,7 +205,7 @@ title: "Awards & Activities"
 ## Research & Publication Recognition
 
 ### Scholarly Impact (2015–2025)
-- **23 research items** (incl. under review / submitted / in preparation) in renowned journals and conferences
+- **24 research items** (incl. under review / submitted / in preparation) in renowned journals and conferences
 - **Premier Venues** including:
   - **ICSE** / **ICSE Companion**
   - **ICPC**, **MSR**, **CASCON**
