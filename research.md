@@ -181,7 +181,7 @@ See the [Projects](/projects) page for detailed information about my research to
 
 ### Journal reviewing
 - **Journal of Software: Evolution and Process (JSME / SMR)** — Reviewer (2023–2025; reviewer certificate / invitation reviews on file)
-- **Journal of Systems and Software (JSS)** — Reviewer / sub-reviewer (2020, 2022, 2025)
+- **Journal of Systems and Software (JSS)** — Reviewer / sub-reviewer (2020, 2022, 2025, 2026)
 
 ### Conference \& symposium reviewing
 Completed review packages include:

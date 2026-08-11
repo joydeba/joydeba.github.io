@@ -538,7 +538,7 @@ def write_cv():
     bullet(doc, "Lead Organizer, 7th Symposium on Innovations in Computer Science and Applied Computing (ICSAC / Research Fest).", size=9)
     bullet(doc, "Judge: Research Fest 2025; USask Images of Research (2024); GSA Elevator Pitch (2024); GSA Research Conference (2023).", size=9)
     sub_heading(doc, "Journal & Conference Reviewing")
-    bullet(doc, "Journals: Journal of Software: Evolution and Process (2023–2025); Journal of Systems and Software (2020, 2022, 2025).", size=9)
+    bullet(doc, "Journals: Journal of Software: Evolution and Process (2023–2025); Journal of Systems and Software (2020, 2022, 2025, 2026).", size=9)
     bullet(doc, "Conferences: ASE 2026/2024/2020; FSE 2026; ICPC 2026; ICSE 2026 SEIS; CHI 2025; SANER 2025/2023; CASCON 2024; ICSME 2023; ISEC 2022; ICSE 2020 Tool Demo; IWSC 2020; ICSA 2020.", size=9)
 
     section_heading(doc, "Leadership, Outreach & Community Engagement")
