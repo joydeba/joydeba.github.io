@@ -15,6 +15,9 @@ Statements that present my teaching, research, and equity commitments.
 
 | Document | PDF | Markdown |
 |---|---|---|
+| Cover Letter — Teaching-focused | [PDF]({{ '/teaching-materials/cover-letter-assistant-professor-teaching.pdf' | relative_url }}) | [Markdown]({{ '/teaching-materials/cover-letter-assistant-professor-teaching.md' | relative_url }}) |
+| Cover Letter — Research-focused | [PDF]({{ '/teaching-materials/cover-letter-assistant-professor-research.pdf' | relative_url }}) | [Markdown]({{ '/teaching-materials/cover-letter-assistant-professor-research.md' | relative_url }}) |
+| Cover Letter (balanced) | [PDF]({{ '/teaching-materials/cover-letter-assistant-professor.pdf' | relative_url }}) | [Markdown]({{ '/teaching-materials/cover-letter-assistant-professor.md' | relative_url }}) |
 | Teaching Statement | [PDF]({{ '/teaching-materials/teaching-statement.pdf' | relative_url }}) | [Markdown]({{ '/teaching-materials/teaching-statement.md' | relative_url }}) |
 | Research Statement | [PDF]({{ '/teaching-materials/research-statement.pdf' | relative_url }}) | [Markdown]({{ '/teaching-materials/research-statement.md' | relative_url }}) |
 | EDIA Statement | [PDF]({{ '/teaching-materials/edia-statement.pdf' | relative_url }}) | [Markdown]({{ '/teaching-materials/edia-statement.md' | relative_url }}) |
