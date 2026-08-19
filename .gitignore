@@ -226,9 +226,22 @@ cv-academic.blg
 Masud-Rahman-CV.pdf
  
 # Ignore application / grant folders (keep local-only)
+University-of-Guelph-SoCS-2649/
+University-of-Saskatchewan-NSERC-CPRA/
+University-of-Montreal-IVADO-Postdoc-2026/
+University-of-Montreal-IVADO-Postdoc-2027/
+University-of-Saskatchewan-NSERC-Alliance-Advantage/
+University-of-Michigan-UMSI-PPFP-2026/
+University-of-Florida-CISE-Jacksonville-2026/
+Cal-Poly-Pomona-CS-TT-2026/
+Haverford-College-CS-TT-2027/
+Generic-Application-Docs/
+# leftover abbreviated names, in case a folder is recreated
 university-of-guelph/
 CGRS-CPRA-Application/
 IVADO-Postdoc-2026/
 IVADO-Postdoc-2027/
 NSERC-Alliance-Advantage/
 UMSI-PPFP-2026/
+UF-CISE-Jacksonville-2026/
+CPP-CS-TT-2026/

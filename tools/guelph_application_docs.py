@@ -13,7 +13,7 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_LINE_SPACING
 from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
 
-OUT = Path(__file__).resolve().parents[1] / "university-of-guelph"
+OUT = Path(__file__).resolve().parents[1] / "University-of-Guelph-SoCS-2649"
 
 # Match cv-academic.tex colour overrides
 AMBER = RGBColor(0xB9, 0x77, 0x0E)
