@@ -96,7 +96,11 @@ My automated backporting solutions have the potential to save up to **90% of sof
 
 **5.** Bairagi, A. K., Mondal, S., & Chakroborti, D. (2017). Securing Bangla text communication using image steganography with dynamic substitution in IoT environment. *Khulna University Studies*, 14, (KUS: 16/30:010816).
 
-**6.** Chakroborti, D., Roy, C., & Schneider, K. (2024). Code propagation in stable version management: A systematic literature review. Manuscript under review.
+**6.** Chakroborti, D., Roy, C., & Schneider, K. Change Propagation in Multi-Version Software: A Systematic Review of Porting and Backporting. Manuscript under review.
+
+**7.** Chakroborti, D. Backport Friction: An Empirical Study of Stable-Branch Integration in Pull-Based Development. Submitted to a journal.
+
+**8.** Chakroborti, D., Mondal, M., Roy, B., Roy, C. K., & Schneider, K. A. Optimal Storing Modes of Workflows under Parameter Configuration Awareness. Submitted to a journal.
 
 ---
 
@@ -126,13 +130,11 @@ My automated backporting solutions have the potential to save up to **90% of sof
 
 ### Under Submission / In Preparation
 
-**1.** Chakroborti, D. An Insight into Backporting Changes: An Empirical Study with Pull-Based Development. To be submitted.
+**1.** Chakroborti, D. BranchBench and BranchBridge: Patch-Level Evaluation for CVE Backport Adaptation. To be submitted.
 
-**2.** Chakroborti, D. BranchBench and BranchBridge: Patch-Level Evaluation for CVE Backport Adaptation. To be submitted.
+**2.** Chakroborti, D. Beyond Correctness: Technical Debt and Carbon Footprint of LLM-Agent versus Human Backports. To be submitted.
 
-**3.** Chakroborti, D. Beyond Correctness: Technical Debt and Carbon Footprint of LLM-Agent versus Human Backports. To be submitted.
-
-**4.** Tasnim, J., Chakroborti, D., Roy, C. K., & Schneider, K. A. Impact of Backporting on the Quality of Stable Software Releases: A Comparative Analysis. To be submitted.
+**3.** Tasnim, J., Chakroborti, D., Roy, C. K., & Schneider, K. A. Impact of Backporting on the Quality of Stable Software Releases: A Comparative Analysis. To be submitted.
 
 ---
 
@@ -153,11 +155,11 @@ See the [Projects](/projects) page for detailed information about my research to
 
 ## Publication Impact Summary
 
-**Total**: 24 research items (2015–2026), including under review / submitted / in preparation  
+**Total**: 25 research items (2015–2026), including under review / submitted / in preparation  
 **Best Poster Awards**: 3 (2021–2022)  
-**Journal Articles**: 6 (including 1 under review)  
+**Journal Articles**: 8 (including 3 under review or submitted)  
 **Conference Papers**: 10 (including submitted)  
-**In preparation**: 4  
+**In preparation**: 3  
 **Book Chapters & Posters**: 4  
 
 ### Premier Venues Include:

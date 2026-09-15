@@ -65,13 +65,13 @@ REFEREES = [
         "phone": "+1 306 966 4891",
         "note": (
             "Professor Schneider was co-supervisor of my M.Sc.\\ and Ph.D.\\ research. He is "
-            "able to comment on the quality of my research, my scholarship in software "
-            "engineering, and my training of graduate students."
+            "able to comment on the quality of my research, my software engineering "
+            "work, and my training of graduate students."
         ),
         "note_plain": (
             "Professor Schneider was co-supervisor of my M.Sc. and Ph.D. research. He is "
-            "able to comment on the quality of my research, my scholarship in software "
-            "engineering, and my training of graduate students."
+            "able to comment on the quality of my research, my software engineering "
+            "work, and my training of graduate students."
         ),
     },
     {
@@ -85,14 +85,16 @@ REFEREES = [
         "email": "banani.roy@usask.ca",
         "phone": "+1 306 850 5630",
         "note": (
-            "Dr.\\ Roy mentored my M.Sc.\\ research on scientific workflow management in the "
-            "Plant Phenotyping and Imaging Research Centre (P2IRC). We have co-authored "
+            "Dr.\\ Roy was my M.Sc.\\ supervisor on scientific workflow research in the "
+            "Plant Phenotyping and Imaging Research Centre (P2IRC) and served on my "
+            "Ph.D.\\ advisory committee. We have co-authored "
             "publications. She is able to comment on my applied artificial intelligence "
             "systems research, interdisciplinary collaboration, and mentoring."
         ),
         "note_plain": (
-            "Dr. Roy mentored my M.Sc. research on scientific workflow management in the "
-            "Plant Phenotyping and Imaging Research Centre (P2IRC). We have co-authored "
+            "Dr. Roy was my M.Sc. supervisor on scientific workflow research in the "
+            "Plant Phenotyping and Imaging Research Centre (P2IRC) and served on my "
+            "Ph.D. advisory committee. We have co-authored "
             "publications. She is able to comment on my applied artificial intelligence "
             "systems research, interdisciplinary collaboration, and mentoring."
         ),
