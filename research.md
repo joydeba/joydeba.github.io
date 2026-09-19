@@ -182,6 +182,7 @@ See the [Projects](/projects) page for detailed information about my research to
 - **Judge**, GSA Graduate Research Conference (2023)
 
 ### Journal reviewing
+- **Automated Software Engineering (ASE Journal)** — Reviewer (2026)
 - **Journal of Software: Evolution and Process (JSME / SMR)** — Reviewer (2023–2025; reviewer certificate / invitation reviews on file)
 - **Journal of Systems and Software (JSS)** — Reviewer / sub-reviewer (2020, 2022, 2025, 2026)
 
